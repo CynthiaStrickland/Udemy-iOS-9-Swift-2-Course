@@ -49,19 +49,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nyw-ks-rCg">
-                                <rect key="frame" x="182" y="42" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="What is in your Mind?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nyw-ks-rCg">
+                                <rect key="frame" x="20" y="74" width="560" height="49"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="41"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dbS-Gz-p7i">
+                                <rect key="frame" x="169" y="160" width="262" height="234"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="262" id="O02-Bd-Zjj"/>
+                                    <constraint firstAttribute="height" constant="234" id="cqv-XY-98l"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ccP-HK-6pn">
+                                <rect key="frame" x="185" y="503" width="231" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0A-gn-tX2">
+                                <rect key="frame" x="266" y="409" width="68" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eQc-ti-BqM">
+                                <rect key="frame" x="277" y="450" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dbS-Gz-p7i" firstAttribute="top" secondItem="nyw-ks-rCg" secondAttribute="bottom" constant="37" id="BHM-h6-nAX"/>
+                            <constraint firstItem="ccP-HK-6pn" firstAttribute="top" secondItem="eQc-ti-BqM" secondAttribute="bottom" constant="23" id="Prj-Fq-YPS"/>
+                            <constraint firstItem="eQc-ti-BqM" firstAttribute="top" secondItem="r0A-gn-tX2" secondAttribute="bottom" constant="8" id="a0w-aF-I5R"/>
+                            <constraint firstItem="nyw-ks-rCg" firstAttribute="centerX" secondItem="ueW-3h-nBw" secondAttribute="centerX" id="vhK-Zk-5qA"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FVB-5W-Xz9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="999" y="317"/>
+            <point key="canvasLocation" x="1224" y="316"/>
         </scene>
     </scenes>
 </document>
