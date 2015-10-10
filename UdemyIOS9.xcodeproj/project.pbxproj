@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3D983B651BC8DFB9003977A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D983B641BC8DFB9003977A0 /* AppDelegate.swift */; };
-		3D983B671BC8DFB9003977A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D983B661BC8DFB9003977A0 /* ViewController.swift */; };
+		3D983B671BC8DFB9003977A0 /* DigitalClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D983B661BC8DFB9003977A0 /* DigitalClockViewController.swift */; };
 		3D983B6A1BC8DFB9003977A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D983B681BC8DFB9003977A0 /* Main.storyboard */; };
 		3D983B6C1BC8DFB9003977A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D983B6B1BC8DFB9003977A0 /* Assets.xcassets */; };
 		3D983B6F1BC8DFB9003977A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D983B6D1BC8DFB9003977A0 /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		3D983B611BC8DFB9003977A0 /* UdemyIOS9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UdemyIOS9.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D983B641BC8DFB9003977A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D983B661BC8DFB9003977A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D983B661BC8DFB9003977A0 /* DigitalClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalClockViewController.swift; sourceTree = "<group>"; };
 		3D983B691BC8DFB9003977A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D983B6B1BC8DFB9003977A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D983B6E1BC8DFB9003977A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				3D983B641BC8DFB9003977A0 /* AppDelegate.swift */,
-				3D983B661BC8DFB9003977A0 /* ViewController.swift */,
+				3D983B661BC8DFB9003977A0 /* DigitalClockViewController.swift */,
 				3D983B681BC8DFB9003977A0 /* Main.storyboard */,
 				3D983B6B1BC8DFB9003977A0 /* Assets.xcassets */,
 				3D983B6D1BC8DFB9003977A0 /* LaunchScreen.storyboard */,
@@ -255,7 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D983B671BC8DFB9003977A0 /* ViewController.swift in Sources */,
+				3D983B671BC8DFB9003977A0 /* DigitalClockViewController.swift in Sources */,
 				3D983B651BC8DFB9003977A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
