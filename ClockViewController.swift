@@ -17,8 +17,6 @@ class ClockViewController: UIViewController {
 
       myTimeLabel.text = ""
       _ = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: ("updateClock"), userInfo: nil, repeats: true)
-      
-     
     }
 
   func updateClock() {

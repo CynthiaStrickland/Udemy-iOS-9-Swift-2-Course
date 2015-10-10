@@ -14,6 +14,14 @@
 		3D983B851BC8DFBA003977A0 /* UdemyIOS9UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D983B841BC8DFBA003977A0 /* UdemyIOS9UITests.swift */; };
 		3D983B971BC8E99D003977A0 /* ClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D983B961BC8E99D003977A0 /* ClockViewController.swift */; };
 		3D983B991BC8EE8F003977A0 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D983B981BC8EE8F003977A0 /* main.storyboard */; };
+		3DD7E8BF1BC9D3DF00EA01E9 /* GuessWhatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD7E8BE1BC9D3DF00EA01E9 /* GuessWhatViewController.swift */; };
+		3DD7E8C61BC9D4E700EA01E9 /* app60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD7E8C01BC9D4E700EA01E9 /* app60@2x.png */; };
+		3DD7E8C71BC9D4E700EA01E9 /* app60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD7E8C11BC9D4E700EA01E9 /* app60@3x.png */; };
+		3DD7E8C81BC9D4E700EA01E9 /* sl29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD7E8C21BC9D4E700EA01E9 /* sl29@2x.png */; };
+		3DD7E8C91BC9D4E700EA01E9 /* sl29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD7E8C31BC9D4E700EA01E9 /* sl29@3x.png */; };
+		3DD7E8CA1BC9D4E700EA01E9 /* sl40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD7E8C41BC9D4E700EA01E9 /* sl40@2x.png */; };
+		3DD7E8CB1BC9D4E700EA01E9 /* sl40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD7E8C51BC9D4E700EA01E9 /* sl40@3x.png */; };
+		3DD7E8CD1BC9D4F600EA01E9 /* whatisinyourmind.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD7E8CC1BC9D4F600EA01E9 /* whatisinyourmind.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		3D983B861BC8DFBA003977A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D983B961BC8E99D003977A0 /* ClockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClockViewController.swift; path = ../ClockViewController.swift; sourceTree = "<group>"; };
 		3D983B981BC8EE8F003977A0 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = main.storyboard; path = ../../../../Users/cynthiawhitlatch/Desktop/UdemyIOS9/UdemyIOS9/main.storyboard; sourceTree = DEVELOPER_DIR; };
+		3DD7E8BE1BC9D3DF00EA01E9 /* GuessWhatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessWhatViewController.swift; sourceTree = "<group>"; };
+		3DD7E8C01BC9D4E700EA01E9 /* app60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app60@2x.png"; sourceTree = "<group>"; };
+		3DD7E8C11BC9D4E700EA01E9 /* app60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app60@3x.png"; sourceTree = "<group>"; };
+		3DD7E8C21BC9D4E700EA01E9 /* sl29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sl29@2x.png"; sourceTree = "<group>"; };
+		3DD7E8C31BC9D4E700EA01E9 /* sl29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sl29@3x.png"; sourceTree = "<group>"; };
+		3DD7E8C41BC9D4E700EA01E9 /* sl40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sl40@2x.png"; sourceTree = "<group>"; };
+		3DD7E8C51BC9D4E700EA01E9 /* sl40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sl40@3x.png"; sourceTree = "<group>"; };
+		3DD7E8CC1BC9D4F600EA01E9 /* whatisinyourmind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whatisinyourmind.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,13 @@
 				3D983B781BC8DFB9003977A0 /* UdemyIOS9Tests */,
 				3D983B831BC8DFBA003977A0 /* UdemyIOS9UITests */,
 				3D983B621BC8DFB9003977A0 /* Products */,
+				3DD7E8C01BC9D4E700EA01E9 /* app60@2x.png */,
+				3DD7E8C11BC9D4E700EA01E9 /* app60@3x.png */,
+				3DD7E8C21BC9D4E700EA01E9 /* sl29@2x.png */,
+				3DD7E8C31BC9D4E700EA01E9 /* sl29@3x.png */,
+				3DD7E8C41BC9D4E700EA01E9 /* sl40@2x.png */,
+				3DD7E8C51BC9D4E700EA01E9 /* sl40@3x.png */,
+				3DD7E8CC1BC9D4F600EA01E9 /* whatisinyourmind.png */,
 				3D983B641BC8DFB9003977A0 /* AppDelegate.swift */,
 				3D983B6B1BC8DFB9003977A0 /* Assets.xcassets */,
 				3D983B6D1BC8DFB9003977A0 /* LaunchScreen.storyboard */,
@@ -102,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				3D983B961BC8E99D003977A0 /* ClockViewController.swift */,
+				3DD7E8BE1BC9D3DF00EA01E9 /* GuessWhatViewController.swift */,
 				3D983B981BC8EE8F003977A0 /* main.storyboard */,
 			);
 			path = UdemyIOS9;
@@ -228,9 +252,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DD7E8C61BC9D4E700EA01E9 /* app60@2x.png in Resources */,
 				3D983B6F1BC8DFB9003977A0 /* LaunchScreen.storyboard in Resources */,
+				3DD7E8CB1BC9D4E700EA01E9 /* sl40@3x.png in Resources */,
 				3D983B6C1BC8DFB9003977A0 /* Assets.xcassets in Resources */,
+				3DD7E8CA1BC9D4E700EA01E9 /* sl40@2x.png in Resources */,
 				3D983B991BC8EE8F003977A0 /* main.storyboard in Resources */,
+				3DD7E8C81BC9D4E700EA01E9 /* sl29@2x.png in Resources */,
+				3DD7E8C71BC9D4E700EA01E9 /* app60@3x.png in Resources */,
+				3DD7E8C91BC9D4E700EA01E9 /* sl29@3x.png in Resources */,
+				3DD7E8CD1BC9D4F600EA01E9 /* whatisinyourmind.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +288,7 @@
 			files = (
 				3D983B651BC8DFB9003977A0 /* AppDelegate.swift in Sources */,
 				3D983B971BC8E99D003977A0 /* ClockViewController.swift in Sources */,
+				3DD7E8BF1BC9D3DF00EA01E9 /* GuessWhatViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +506,7 @@
 				3D983B8B1BC8DFBA003977A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D983B8C1BC8DFBA003977A0 /* Build configuration list for PBXNativeTarget "UdemyIOS9Tests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +515,7 @@
 				3D983B8E1BC8DFBA003977A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D983B8F1BC8DFBA003977A0 /* Build configuration list for PBXNativeTarget "UdemyIOS9UITests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +524,7 @@
 				3D983B911BC8DFBA003977A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
