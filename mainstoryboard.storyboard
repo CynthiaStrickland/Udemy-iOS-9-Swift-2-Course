@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9046" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+    </dependencies>
+    <scenes>
+        <!--Clock View Controller-->
+        <scene sceneID="8m1-mf-1oo">
+            <objects>
+                <viewController id="HIy-17-WnX" customClass="ClockViewController" customModule="UdemyIOS9" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="E4z-az-15n"/>
+                        <viewControllerLayoutGuide type="bottom" id="RlI-Wq-Nb9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="icF-Fz-OH7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="09:45:00 AM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2k8-lD-0sA">
+                                <rect key="frame" x="20" y="162" width="560" height="50"/>
+                                <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="39"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2k8-lD-0sA" firstAttribute="centerY" secondItem="icF-Fz-OH7" secondAttribute="centerY" id="3cM-SU-5tq"/>
+                            <constraint firstItem="2k8-lD-0sA" firstAttribute="centerX" secondItem="icF-Fz-OH7" secondAttribute="centerX" id="Xxs-Y0-rSj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myTimeLabel" destination="2k8-lD-0sA" id="iC7-C2-fXZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lDK-Sn-wuU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="442" y="316"/>
+        </scene>
+    </scenes>
+</document>

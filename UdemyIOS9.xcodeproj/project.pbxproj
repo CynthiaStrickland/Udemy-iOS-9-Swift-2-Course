@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3D983B651BC8DFB9003977A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D983B641BC8DFB9003977A0 /* AppDelegate.swift */; };
-		3D983B671BC8DFB9003977A0 /* DigitalClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D983B661BC8DFB9003977A0 /* DigitalClockViewController.swift */; };
-		3D983B6A1BC8DFB9003977A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D983B681BC8DFB9003977A0 /* Main.storyboard */; };
 		3D983B6C1BC8DFB9003977A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D983B6B1BC8DFB9003977A0 /* Assets.xcassets */; };
 		3D983B6F1BC8DFB9003977A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D983B6D1BC8DFB9003977A0 /* LaunchScreen.storyboard */; };
 		3D983B7A1BC8DFBA003977A0 /* UdemyIOS9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D983B791BC8DFBA003977A0 /* UdemyIOS9Tests.swift */; };
 		3D983B851BC8DFBA003977A0 /* UdemyIOS9UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D983B841BC8DFBA003977A0 /* UdemyIOS9UITests.swift */; };
+		3D983B951BC8E987003977A0 /* mainstoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D983B941BC8E987003977A0 /* mainstoryboard.storyboard */; };
+		3D983B971BC8E99D003977A0 /* ClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D983B961BC8E99D003977A0 /* ClockViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +35,18 @@
 
 /* Begin PBXFileReference section */
 		3D983B611BC8DFB9003977A0 /* UdemyIOS9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UdemyIOS9.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D983B641BC8DFB9003977A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D983B661BC8DFB9003977A0 /* DigitalClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalClockViewController.swift; sourceTree = "<group>"; };
-		3D983B691BC8DFB9003977A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3D983B6B1BC8DFB9003977A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D983B641BC8DFB9003977A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = UdemyIOS9/AppDelegate.swift; sourceTree = "<group>"; };
+		3D983B6B1BC8DFB9003977A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = UdemyIOS9/Assets.xcassets; sourceTree = "<group>"; };
 		3D983B6E1BC8DFB9003977A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3D983B701BC8DFB9003977A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D983B701BC8DFB9003977A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = UdemyIOS9/Info.plist; sourceTree = "<group>"; };
 		3D983B751BC8DFB9003977A0 /* UdemyIOS9Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UdemyIOS9Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D983B791BC8DFBA003977A0 /* UdemyIOS9Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdemyIOS9Tests.swift; sourceTree = "<group>"; };
 		3D983B7B1BC8DFBA003977A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D983B801BC8DFBA003977A0 /* UdemyIOS9UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UdemyIOS9UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D983B841BC8DFBA003977A0 /* UdemyIOS9UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdemyIOS9UITests.swift; sourceTree = "<group>"; };
 		3D983B861BC8DFBA003977A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D983B941BC8E987003977A0 /* mainstoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = mainstoryboard.storyboard; path = ../mainstoryboard.storyboard; sourceTree = "<group>"; };
+		3D983B961BC8E99D003977A0 /* ClockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClockViewController.swift; path = ../ClockViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +81,10 @@
 				3D983B781BC8DFB9003977A0 /* UdemyIOS9Tests */,
 				3D983B831BC8DFBA003977A0 /* UdemyIOS9UITests */,
 				3D983B621BC8DFB9003977A0 /* Products */,
+				3D983B641BC8DFB9003977A0 /* AppDelegate.swift */,
+				3D983B6B1BC8DFB9003977A0 /* Assets.xcassets */,
+				3D983B6D1BC8DFB9003977A0 /* LaunchScreen.storyboard */,
+				3D983B701BC8DFB9003977A0 /* Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +101,8 @@
 		3D983B631BC8DFB9003977A0 /* UdemyIOS9 */ = {
 			isa = PBXGroup;
 			children = (
-				3D983B641BC8DFB9003977A0 /* AppDelegate.swift */,
-				3D983B661BC8DFB9003977A0 /* DigitalClockViewController.swift */,
-				3D983B681BC8DFB9003977A0 /* Main.storyboard */,
-				3D983B6B1BC8DFB9003977A0 /* Assets.xcassets */,
-				3D983B6D1BC8DFB9003977A0 /* LaunchScreen.storyboard */,
-				3D983B701BC8DFB9003977A0 /* Info.plist */,
+				3D983B941BC8E987003977A0 /* mainstoryboard.storyboard */,
+				3D983B961BC8E99D003977A0 /* ClockViewController.swift */,
 			);
 			path = UdemyIOS9;
 			sourceTree = "<group>";
@@ -230,7 +230,7 @@
 			files = (
 				3D983B6F1BC8DFB9003977A0 /* LaunchScreen.storyboard in Resources */,
 				3D983B6C1BC8DFB9003977A0 /* Assets.xcassets in Resources */,
-				3D983B6A1BC8DFB9003977A0 /* Main.storyboard in Resources */,
+				3D983B951BC8E987003977A0 /* mainstoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,8 +255,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D983B671BC8DFB9003977A0 /* DigitalClockViewController.swift in Sources */,
 				3D983B651BC8DFB9003977A0 /* AppDelegate.swift in Sources */,
+				3D983B971BC8E99D003977A0 /* ClockViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,20 +292,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3D983B681BC8DFB9003977A0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3D983B691BC8DFB9003977A0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3D983B6D1BC8DFB9003977A0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3D983B6E1BC8DFB9003977A0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = UdemyIOS9;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
