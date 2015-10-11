@@ -52,14 +52,37 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="whatisinyourmind.png" translatesAutoresizingMaskIntoConstraints="NO" id="dbS-Gz-p7i">
                                 <rect key="frame" x="169" y="160" width="262" height="234"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="234" id="Vsr-jg-kiT"/>
-                                    <constraint firstAttribute="width" constant="262" id="ltB-Eq-sOa"/>
+                                    <constraint firstAttribute="height" constant="234" id="Vsr-jg-kiT">
+                                        <variation key="heightClass=compact" constant="155"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" constant="262" id="ltB-Eq-sOa">
+                                        <variation key="heightClass=compact" constant="174"/>
+                                    </constraint>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eQc-ti-BqM">
                                 <rect key="frame" x="277" y="450" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="nextButtonPressed:" destination="c3B-lw-LBd" eventType="touchUpInside" id="tcU-ZQ-ldb"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0A-gn-tX2">
+                                <rect key="frame" x="163" y="409" width="275" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="180" y="402" width="42" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="What is in your Mind?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nyw-ks-rCg">
+                                <rect key="frame" x="20" y="74" width="560" height="49"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="29"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ccP-HK-6pn">
                                 <rect key="frame" x="185" y="503" width="231" height="30"/>
                                 <constraints>
@@ -69,41 +92,39 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Next" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0A-gn-tX2">
-                                <rect key="frame" x="163" y="409" width="275" height="33"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="What is in your Mind?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nyw-ks-rCg">
-                                <rect key="frame" x="20" y="74" width="560" height="49"/>
-                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="29"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="eQc-ti-BqM" firstAttribute="centerX" secondItem="r0A-gn-tX2" secondAttribute="centerX" id="HVo-LU-TDG"/>
-                            <constraint firstItem="r0A-gn-tX2" firstAttribute="top" secondItem="dbS-Gz-p7i" secondAttribute="bottom" constant="15" id="Rhw-wn-CWs"/>
+                            <constraint firstItem="r0A-gn-tX2" firstAttribute="top" secondItem="dbS-Gz-p7i" secondAttribute="bottom" constant="15" id="Rhw-wn-CWs">
+                                <variation key="heightClass=compact" constant="17"/>
+                            </constraint>
                             <constraint firstItem="nyw-ks-rCg" firstAttribute="centerX" secondItem="ueW-3h-nBw" secondAttribute="centerX" id="SfR-74-HkA"/>
                             <constraint firstItem="ccP-HK-6pn" firstAttribute="centerX" secondItem="eQc-ti-BqM" secondAttribute="centerX" id="WCd-4M-XGF"/>
                             <constraint firstItem="dbS-Gz-p7i" firstAttribute="centerX" secondItem="nyw-ks-rCg" secondAttribute="centerX" id="bvc-WI-dke"/>
                             <constraint firstItem="r0A-gn-tX2" firstAttribute="centerX" secondItem="dbS-Gz-p7i" secondAttribute="centerX" id="loF-uK-7jM"/>
                             <constraint firstItem="dbS-Gz-p7i" firstAttribute="top" secondItem="nyw-ks-rCg" secondAttribute="bottom" constant="37" id="pkQ-Rr-aXE">
+                                <variation key="heightClass=compact" constant="8"/>
                                 <variation key="heightClass=regular-widthClass=compact" constant="38"/>
                             </constraint>
-                            <constraint firstItem="ccP-HK-6pn" firstAttribute="top" secondItem="eQc-ti-BqM" secondAttribute="bottom" constant="23" id="qPk-cG-xzF"/>
+                            <constraint firstItem="ccP-HK-6pn" firstAttribute="top" secondItem="eQc-ti-BqM" secondAttribute="bottom" constant="23" id="qPk-cG-xzF">
+                                <variation key="heightClass=compact" constant="19"/>
+                            </constraint>
                             <constraint firstItem="nyw-ks-rCg" firstAttribute="top" secondItem="N9p-aq-IXG" secondAttribute="bottom" constant="54" id="tyb-DL-Fhz">
+                                <variation key="heightClass=compact" constant="3"/>
                                 <variation key="heightClass=regular-widthClass=compact" constant="53"/>
                             </constraint>
                             <constraint firstItem="eQc-ti-BqM" firstAttribute="top" secondItem="r0A-gn-tX2" secondAttribute="bottom" constant="8" id="uOW-me-ZKX"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="answerTextField" destination="ccP-HK-6pn" id="S3Q-ow-d5r"/>
+                        <outlet property="questionLabel" destination="r0A-gn-tX2" id="43l-ja-Xws"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FVB-5W-Xz9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1224" y="315.75"/>
+            <point key="canvasLocation" x="1224" y="315"/>
         </scene>
     </scenes>
     <resources>
