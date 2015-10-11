@@ -63,7 +63,6 @@ class GuessWhatViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
 
-      questionLabel.text = ""
       answerTextField.text = ""
       answerTextField.hidden = true
       
