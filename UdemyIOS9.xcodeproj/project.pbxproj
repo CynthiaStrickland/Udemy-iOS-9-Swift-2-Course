@@ -15,6 +15,13 @@
 		3D983B971BC8E99D003977A0 /* ClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D983B961BC8E99D003977A0 /* ClockViewController.swift */; };
 		3D983B991BC8EE8F003977A0 /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D983B981BC8EE8F003977A0 /* main.storyboard */; };
 		3DAEDFA81BCA38C800A427FE /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEDFA71BCA38C800A427FE /* CalculatorViewController.swift */; };
+		3DAEDFB31BCA3EA300A427FE /* calc60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFAC1BCA3EA300A427FE /* calc60@2x.png */; };
+		3DAEDFB41BCA3EA300A427FE /* calc60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFAD1BCA3EA300A427FE /* calc60@3x.png */; };
+		3DAEDFB51BCA3EA300A427FE /* calcsl29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFAE1BCA3EA300A427FE /* calcsl29@2x.png */; };
+		3DAEDFB61BCA3EA300A427FE /* calcsl29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFAF1BCA3EA300A427FE /* calcsl29@3x.png */; };
+		3DAEDFB71BCA3EA300A427FE /* calcsl40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFB01BCA3EA300A427FE /* calcsl40@2x.png */; };
+		3DAEDFB81BCA3EA300A427FE /* calcsl40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFB11BCA3EA300A427FE /* calcsl40@3x.png */; };
+		3DAEDFB91BCA3EA300A427FE /* calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFB21BCA3EA300A427FE /* calculator.png */; };
 		3DD7E8BF1BC9D3DF00EA01E9 /* GuessWhatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD7E8BE1BC9D3DF00EA01E9 /* GuessWhatViewController.swift */; };
 		3DD7E8C61BC9D4E700EA01E9 /* app60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD7E8C01BC9D4E700EA01E9 /* app60@2x.png */; };
 		3DD7E8C71BC9D4E700EA01E9 /* app60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD7E8C11BC9D4E700EA01E9 /* app60@3x.png */; };
@@ -57,6 +64,13 @@
 		3D983B961BC8E99D003977A0 /* ClockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClockViewController.swift; path = ../ClockViewController.swift; sourceTree = "<group>"; };
 		3D983B981BC8EE8F003977A0 /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = main.storyboard; path = ../../../../Users/cynthiawhitlatch/Desktop/UdemyIOS9/UdemyIOS9/main.storyboard; sourceTree = DEVELOPER_DIR; };
 		3DAEDFA71BCA38C800A427FE /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		3DAEDFAC1BCA3EA300A427FE /* calc60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calc60@2x.png"; sourceTree = "<group>"; };
+		3DAEDFAD1BCA3EA300A427FE /* calc60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calc60@3x.png"; sourceTree = "<group>"; };
+		3DAEDFAE1BCA3EA300A427FE /* calcsl29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calcsl29@2x.png"; sourceTree = "<group>"; };
+		3DAEDFAF1BCA3EA300A427FE /* calcsl29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calcsl29@3x.png"; sourceTree = "<group>"; };
+		3DAEDFB01BCA3EA300A427FE /* calcsl40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calcsl40@2x.png"; sourceTree = "<group>"; };
+		3DAEDFB11BCA3EA300A427FE /* calcsl40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calcsl40@3x.png"; sourceTree = "<group>"; };
+		3DAEDFB21BCA3EA300A427FE /* calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calculator.png; sourceTree = "<group>"; };
 		3DD7E8BE1BC9D3DF00EA01E9 /* GuessWhatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessWhatViewController.swift; sourceTree = "<group>"; };
 		3DD7E8C01BC9D4E700EA01E9 /* app60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app60@2x.png"; sourceTree = "<group>"; };
 		3DD7E8C11BC9D4E700EA01E9 /* app60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app60@3x.png"; sourceTree = "<group>"; };
@@ -102,13 +116,7 @@
 				3D983B781BC8DFB9003977A0 /* UdemyIOS9Tests */,
 				3D983B831BC8DFBA003977A0 /* UdemyIOS9UITests */,
 				3D983B621BC8DFB9003977A0 /* Products */,
-				3DD7E8C01BC9D4E700EA01E9 /* app60@2x.png */,
-				3DD7E8C11BC9D4E700EA01E9 /* app60@3x.png */,
-				3DD7E8C21BC9D4E700EA01E9 /* sl29@2x.png */,
-				3DD7E8C31BC9D4E700EA01E9 /* sl29@3x.png */,
-				3DD7E8C41BC9D4E700EA01E9 /* sl40@2x.png */,
-				3DD7E8C51BC9D4E700EA01E9 /* sl40@3x.png */,
-				3DD7E8CC1BC9D4F600EA01E9 /* whatisinyourmind.png */,
+				3DAEDFAB1BCA3E1A00A427FE /* Images */,
 				3D983B641BC8DFB9003977A0 /* AppDelegate.swift */,
 				3D983B6B1BC8DFB9003977A0 /* Assets.xcassets */,
 				3D983B6D1BC8DFB9003977A0 /* LaunchScreen.storyboard */,
@@ -168,6 +176,27 @@
 			);
 			name = View;
 			path = UdemyIOS9;
+			sourceTree = "<group>";
+		};
+		3DAEDFAB1BCA3E1A00A427FE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3DAEDFAC1BCA3EA300A427FE /* calc60@2x.png */,
+				3DAEDFAD1BCA3EA300A427FE /* calc60@3x.png */,
+				3DAEDFAE1BCA3EA300A427FE /* calcsl29@2x.png */,
+				3DAEDFAF1BCA3EA300A427FE /* calcsl29@3x.png */,
+				3DAEDFB01BCA3EA300A427FE /* calcsl40@2x.png */,
+				3DAEDFB11BCA3EA300A427FE /* calcsl40@3x.png */,
+				3DAEDFB21BCA3EA300A427FE /* calculator.png */,
+				3DD7E8C01BC9D4E700EA01E9 /* app60@2x.png */,
+				3DD7E8C11BC9D4E700EA01E9 /* app60@3x.png */,
+				3DD7E8C21BC9D4E700EA01E9 /* sl29@2x.png */,
+				3DD7E8C31BC9D4E700EA01E9 /* sl29@3x.png */,
+				3DD7E8C41BC9D4E700EA01E9 /* sl40@2x.png */,
+				3DD7E8C51BC9D4E700EA01E9 /* sl40@3x.png */,
+				3DD7E8CC1BC9D4F600EA01E9 /* whatisinyourmind.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,13 +302,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DAEDFB61BCA3EA300A427FE /* calcsl29@3x.png in Resources */,
+				3DAEDFB71BCA3EA300A427FE /* calcsl40@2x.png in Resources */,
 				3DD7E8C61BC9D4E700EA01E9 /* app60@2x.png in Resources */,
+				3DAEDFB81BCA3EA300A427FE /* calcsl40@3x.png in Resources */,
+				3DAEDFB51BCA3EA300A427FE /* calcsl29@2x.png in Resources */,
 				3D983B6F1BC8DFB9003977A0 /* LaunchScreen.storyboard in Resources */,
 				3DD7E8CB1BC9D4E700EA01E9 /* sl40@3x.png in Resources */,
 				3D983B6C1BC8DFB9003977A0 /* Assets.xcassets in Resources */,
+				3DAEDFB31BCA3EA300A427FE /* calc60@2x.png in Resources */,
+				3DAEDFB91BCA3EA300A427FE /* calculator.png in Resources */,
 				3DD7E8CA1BC9D4E700EA01E9 /* sl40@2x.png in Resources */,
 				3D983B991BC8EE8F003977A0 /* main.storyboard in Resources */,
 				3DD7E8C81BC9D4E700EA01E9 /* sl29@2x.png in Resources */,
+				3DAEDFB41BCA3EA300A427FE /* calc60@3x.png in Resources */,
 				3DD7E8C71BC9D4E700EA01E9 /* app60@3x.png in Resources */,
 				3DD7E8C91BC9D4E700EA01E9 /* sl29@3x.png in Resources */,
 				3DD7E8CD1BC9D4F600EA01E9 /* whatisinyourmind.png in Resources */,
