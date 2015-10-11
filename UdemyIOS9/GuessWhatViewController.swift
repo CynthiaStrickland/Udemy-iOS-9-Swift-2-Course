@@ -41,7 +41,18 @@ class GuessWhatViewController: UIViewController {
         let input : Int = Int(answerTextField.text!)!
         let answer = ((((input - 2) / 2) - 5) / 5)
         questionLabel.text = "You thought of : \(answer)"
+        sender.setTitle("Play?", forState: UIControlState.Normal)
+      } else {
+        let alert = UIAlertController(title: "Ooops", message: "Please provide total", preferredStyle: .Alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
+        self.presentViewController(alert, animated: true, completion: nil)
       }
+      self.view.endEditing(true)
+    }
+    question++
+    
+    if question > 7 {
+      question = 1
     }
 }
 
