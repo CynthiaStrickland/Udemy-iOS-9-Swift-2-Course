@@ -12,8 +12,6 @@ class WebBrowserViewController: UIViewController, UITextFieldDelegate {
   
   var address : String = String()
   
-  
-  
   @IBOutlet weak var webAddress: UITextField!
   @IBOutlet weak var webView: UIWebView!
   
@@ -21,8 +19,6 @@ class WebBrowserViewController: UIViewController, UITextFieldDelegate {
   @IBAction func goPressed(sender: AnyObject) {
     webAddress.resignFirstResponder()
     loadWebPage()
-    
-    
   }
   
   @IBAction func leftPressed(sender: AnyObject) {
@@ -40,8 +36,7 @@ class WebBrowserViewController: UIViewController, UITextFieldDelegate {
   @IBAction func zoomOutPressed(sender: AnyObject) {
     
   }
-  
-  
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -52,14 +47,20 @@ class WebBrowserViewController: UIViewController, UITextFieldDelegate {
 
   func loadWebPage() {
     if webAddress.text != "" {
+      
       address = address.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
       address = self.webAddress.text!
       
-      if address.hasPrefix("www."){
-        address = "http:\\" + address
-      } else if !address.hasPrefix("http:\\") {
-        address = "http:\\" + address
+      if address.hasPrefix("www.") {
+        address = "https://" + address
+      }else if !address.hasPrefix("https://") {
+        address = "https://" + address
       }
+      
+      let url = NSURL(string: address)
+      let request = NSURLRequest(URL: url!)
+      webView.loadRequest(request)
+      
     }
   }
   
