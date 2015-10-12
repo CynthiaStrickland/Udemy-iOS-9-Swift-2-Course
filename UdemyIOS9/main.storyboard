@@ -329,13 +329,29 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1PN-eF-riC">
                                 <rect key="frame" x="16" y="613" width="343" height="44"/>
                                 <items>
-                                    <barButtonItem title="&lt;" style="plain" id="eiy-bW-cim"/>
-                                    <barButtonItem title="&gt;" style="plain" id="nks-hd-Ids"/>
+                                    <barButtonItem title="&lt;" style="plain" id="eiy-bW-cim">
+                                        <connections>
+                                            <action selector="leftPressed:" destination="gBA-xS-yxG" id="42x-fO-dQO"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="&gt;" style="plain" id="nks-hd-Ids">
+                                        <connections>
+                                            <action selector="rightPressed:" destination="gBA-xS-yxG" id="YCg-BG-jOy"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="aDW-wm-kN1">
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </barButtonItem>
-                                    <barButtonItem title="-" style="plain" id="Zud-OF-KPv"/>
-                                    <barButtonItem title="+" style="plain" id="0VY-C2-YDU"/>
+                                    <barButtonItem title="-" style="plain" id="Zud-OF-KPv">
+                                        <connections>
+                                            <action selector="zoomOutPressed:" destination="gBA-xS-yxG" id="rd9-Yy-Tvf"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="+" style="plain" id="0VY-C2-YDU">
+                                        <connections>
+                                            <action selector="zoomInPressed:" destination="gBA-xS-yxG" id="8pH-TY-b2S"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
@@ -354,6 +370,11 @@
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="goPressed" destination="R6V-cF-j7W" id="eeB-rf-FqE"/>
+                        <outlet property="webAddress" destination="mIe-ni-Ec6" id="3TO-Ph-7CB"/>
+                        <outlet property="webView" destination="FuN-ZC-N6K" id="bPQ-37-fN4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fuh-WH-aHs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -9,7 +9,31 @@
 import UIKit
 
 class WebBrowserViewController: UIViewController {
-
+  
+  
+  
+  
+  @IBOutlet weak var goPressed: UIButton!
+  @IBOutlet weak var webAddress: UITextField!
+  @IBOutlet weak var webView: UIWebView!
+  
+  @IBAction func leftPressed(sender: AnyObject) {
+    
+  }
+  
+  @IBAction func rightPressed(sender: AnyObject) {
+    
+  }
+  
+  @IBAction func zoomInPressed(sender: AnyObject) {
+    
+  }
+    
+  @IBAction func zoomOutPressed(sender: AnyObject) {
+    
+  }
+  
+  
     override func viewDidLoad() {
         super.viewDidLoad()
 
