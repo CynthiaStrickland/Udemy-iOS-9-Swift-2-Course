@@ -10,8 +10,7 @@ import UIKit
 
 class GuessWhatViewController: UIViewController {
 
-  @IBOutlet weak var questionLabel: UILabel!
-  
+  @IBOutlet weak var questionLabel: UILabel!  
   @IBOutlet weak var answerTextField: UITextField!
   
   var question : Int = 2
