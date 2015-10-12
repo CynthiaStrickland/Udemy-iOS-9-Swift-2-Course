@@ -10,9 +10,34 @@ import UIKit
 
 class CalculatorViewController: UIViewController {
 
+  var op: Int = 0             // Starts at tag 0
+  var setZero: Bool = true    // Will reset label to 0 after operator is pressed.
+  var operand: Int = 0        // After an operator is pressed the value that was entered is stored in this variable.
+  
   @IBOutlet weak var resultLabel: UILabel!
   
   @IBAction func buttonOperation(sender: AnyObject) {
+    
+    if setZero {
+      resultLabel.text = "0"
+      setZero = false
+    }
+    
+    if op != 0 {
+      operand = calculateResult(oprtr: op)
+      resultLabel.text = "\(operand)"
+      setZero = true
+      op = sender.tag
+      
+    } else {
+    
+    if let theResult : Int = Int(resultLabel.text!) {
+      operand = theResult
+      setZero = true
+      op = sender.tag
+      
+      }
+    }
   }
   
   @IBAction func buttonDigitPressed(sender: AnyObject) {
@@ -23,7 +48,13 @@ class CalculatorViewController: UIViewController {
     resultLabel.text = "\(result)"
   }
 }
+  
+  @IBAction func equalsButton(sender: AnyObject) {
+    
+  }
+  
   @IBAction func cancelButton(sender: AnyObject) {
+    resultLabel.text = "0"
   }
   
   
@@ -31,6 +62,9 @@ class CalculatorViewController: UIViewController {
   
     override func viewDidLoad() {
         super.viewDidLoad()
+      
+      setZero = true
+      op = 0
 
       func preferredStatusBarStyle() -> UIStatusBarStyle {
         return UIStatusBarStyle.LightContent

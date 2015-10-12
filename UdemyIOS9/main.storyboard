@@ -70,7 +70,7 @@
                                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="buttonDigitPressed:" destination="utn-BT-jdp" eventType="touchUpInside" id="tgC-Yf-Nhi"/>
+                                                    <action selector="buttonDigitPressed:" destination="utn-BT-jdp" eventType="touchUpInside" id="TxP-A2-CH8"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u2e-p2-cU1">
@@ -241,7 +241,7 @@
                                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="buttonOperation:" destination="utn-BT-jdp" eventType="touchUpInside" id="zPO-mA-Xx3"/>
+                                                    <action selector="equalsButton:" destination="utn-BT-jdp" eventType="touchUpInside" id="ekg-Hy-sv2"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mmV-gb-stC">
