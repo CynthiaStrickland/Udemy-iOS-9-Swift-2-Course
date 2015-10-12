@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9046" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="gBA-xS-yxG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9046" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="qO5-Cl-DYB">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -17,14 +17,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="pge-QA-6ni">
-                                <rect key="frame" x="36" y="70" width="303" height="497"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="pge-QA-6ni">
+                                <rect key="frame" x="36" y="70" width="303" height="453"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="SYG-NC-8L7">
-                                        <rect key="frame" x="0.0" y="0.0" width="303" height="99"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="303" height="90"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dYG-qf-ZCE">
-                                                <rect key="frame" x="0.0" y="0.0" width="303" height="99"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="303" height="90"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="46"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
@@ -32,10 +32,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="k0R-pJ-mvA">
-                                        <rect key="frame" x="0.0" y="100" width="303" height="98"/>
+                                        <rect key="frame" x="0.0" y="91" width="303" height="90"/>
                                         <subviews>
                                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FHE-1W-Hcj">
-                                                <rect key="frame" x="0.0" y="0.0" width="75" height="98"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="90"/>
                                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
@@ -48,7 +48,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mLH-Zu-kXx">
-                                                <rect key="frame" x="76" y="0.0" width="75" height="98"/>
+                                                <rect key="frame" x="76" y="0.0" width="75" height="90"/>
                                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
@@ -61,7 +61,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="toK-Pg-Zc4">
-                                                <rect key="frame" x="152" y="0.0" width="75" height="98"/>
+                                                <rect key="frame" x="152" y="0.0" width="75" height="90"/>
                                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
@@ -74,7 +74,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u2e-p2-cU1">
-                                                <rect key="frame" x="228" y="0.0" width="75" height="98"/>
+                                                <rect key="frame" x="228" y="0.0" width="75" height="90"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
@@ -89,10 +89,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="ilv-UJ-usX">
-                                        <rect key="frame" x="0.0" y="199" width="303" height="99"/>
+                                        <rect key="frame" x="0.0" y="182" width="303" height="89"/>
                                         <subviews>
                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfm-m2-6XM">
-                                                <rect key="frame" x="0.0" y="0.0" width="75" height="99"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="89"/>
                                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
@@ -105,7 +105,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AhM-q7-IBJ">
-                                                <rect key="frame" x="76" y="0.0" width="75" height="99"/>
+                                                <rect key="frame" x="76" y="0.0" width="75" height="89"/>
                                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
@@ -118,7 +118,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tES-Pi-bk0">
-                                                <rect key="frame" x="152" y="0.0" width="75" height="99"/>
+                                                <rect key="frame" x="152" y="0.0" width="75" height="89"/>
                                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
@@ -131,7 +131,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nfV-GG-1CG">
-                                                <rect key="frame" x="228" y="0.0" width="75" height="99"/>
+                                                <rect key="frame" x="228" y="0.0" width="75" height="89"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
@@ -146,10 +146,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="ZED-W7-sOo">
-                                        <rect key="frame" x="0.0" y="299" width="303" height="98"/>
+                                        <rect key="frame" x="0.0" y="272" width="303" height="90"/>
                                         <subviews>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPb-8b-mbu">
-                                                <rect key="frame" x="0.0" y="0.0" width="75" height="98"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="90"/>
                                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
@@ -162,7 +162,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdE-o4-b6v">
-                                                <rect key="frame" x="76" y="0.0" width="75" height="98"/>
+                                                <rect key="frame" x="76" y="0.0" width="75" height="90"/>
                                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
@@ -175,7 +175,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dy6-XG-47Z">
-                                                <rect key="frame" x="152" y="0.0" width="75" height="98"/>
+                                                <rect key="frame" x="152" y="0.0" width="75" height="90"/>
                                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
@@ -188,7 +188,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1hw-ji-1M8">
-                                                <rect key="frame" x="228" y="0.0" width="75" height="98"/>
+                                                <rect key="frame" x="228" y="0.0" width="75" height="90"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
@@ -203,10 +203,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="IPU-wA-mXG">
-                                        <rect key="frame" x="0.0" y="398" width="303" height="99"/>
+                                        <rect key="frame" x="0.0" y="363" width="303" height="90"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUr-sa-D6B">
-                                                <rect key="frame" x="0.0" y="0.0" width="75" height="99"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="90"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
@@ -219,7 +219,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="78z-q7-y3S">
-                                                <rect key="frame" x="76" y="0.0" width="75" height="99"/>
+                                                <rect key="frame" x="76" y="0.0" width="75" height="90"/>
                                                 <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
@@ -232,7 +232,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qIj-6c-WCY">
-                                                <rect key="frame" x="152" y="0.0" width="75" height="99"/>
+                                                <rect key="frame" x="152" y="0.0" width="75" height="90"/>
                                                 <color key="backgroundColor" red="0.20495135822643384" green="1" blue="0.2830737174932102" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
@@ -245,7 +245,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mmV-gb-stC">
-                                                <rect key="frame" x="228" y="0.0" width="75" height="99"/>
+                                                <rect key="frame" x="228" y="0.0" width="75" height="90"/>
                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="40"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
@@ -270,6 +270,14 @@
                             <constraint firstItem="OJz-IG-76X" firstAttribute="top" secondItem="pge-QA-6ni" secondAttribute="bottom" constant="100" id="gY9-9m-piz"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Buc-MU-RhF">
+                        <barButtonItem key="rightBarButtonItem" title="Web Browser" id="oj5-7E-r1U">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <segue destination="gBA-xS-yxG" kind="show" id="18V-pC-dCW"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="resultLabel" destination="dYG-qf-ZCE" id="ouX-td-Kge"/>
@@ -277,9 +285,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fgR-yZ-eu1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="115.5" y="-522.5"/>
+            <point key="canvasLocation" x="581.5" y="-523.5"/>
         </scene>
-        <!--Web Browser View Controller-->
+        <!--WebBrowser-->
         <scene sceneID="zRf-ek-7DK">
             <objects>
                 <viewController id="gBA-xS-yxG" customClass="WebBrowserViewController" customModule="UdemyIOS9" customModuleProvider="target" sceneMemberID="viewController">
@@ -291,7 +299,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="LTl-kg-Ptd">
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="LTl-kg-Ptd">
                                 <rect key="frame" x="16" y="20" width="343" height="30"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="https:\\" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zUM-qx-Mhc">
@@ -304,7 +312,7 @@
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mIe-ni-Ec6">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Web Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mIe-ni-Ec6">
                                         <rect key="frame" x="59" y="0.0" width="251" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="URL"/>
@@ -325,34 +333,40 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FuN-ZC-N6K">
+                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FuN-ZC-N6K">
                                 <rect key="frame" x="16" y="52" width="343" height="559"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1PN-eF-riC">
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1PN-eF-riC">
                                 <rect key="frame" x="16" y="613" width="343" height="44"/>
                                 <items>
                                     <barButtonItem title="&lt;" style="plain" id="eiy-bW-cim">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
                                             <action selector="leftPressed:" destination="gBA-xS-yxG" id="42x-fO-dQO"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem title="&gt;" style="plain" id="nks-hd-Ids">
-                                        <connections>
-                                            <action selector="rightPressed:" destination="gBA-xS-yxG" id="YCg-BG-jOy"/>
-                                        </connections>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="SMS-sE-E5W">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="aDW-wm-kN1">
+                                    <barButtonItem title="ZoomIn" id="jmn-aN-HXZ">
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                    </barButtonItem>
-                                    <barButtonItem title="-" style="plain" id="Zud-OF-KPv">
                                         <connections>
-                                            <action selector="zoomOutPressed:" destination="gBA-xS-yxG" id="rd9-Yy-Tvf"/>
+                                            <action selector="zoomInPressed:" destination="gBA-xS-yxG" id="nwL-9O-OZI"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem title="+" style="plain" id="0VY-C2-YDU">
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="YXF-Ej-Ujs"/>
+                                    <barButtonItem title="ZoomOut" id="bjG-wd-vW9">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
-                                            <action selector="zoomInPressed:" destination="gBA-xS-yxG" id="8pH-TY-b2S"/>
+                                            <action selector="zoomOutPressed:" destination="gBA-xS-yxG" id="UU2-xk-wqt"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="oVL-NY-qab"/>
+                                    <barButtonItem title="&gt;" id="NnH-F7-xHO">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="rightPressed:" destination="gBA-xS-yxG" id="4Pa-8P-9Hc"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
@@ -372,6 +386,17 @@
                             <constraint firstItem="kyU-Gp-kDr" firstAttribute="top" secondItem="1PN-eF-riC" secondAttribute="bottom" constant="10" id="zcN-Gx-a38"/>
                         </constraints>
                     </view>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="NTz-yr-89b"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" title="WebBrowser" id="IFs-mV-a8B">
+                        <barButtonItem key="rightBarButtonItem" title="Digital Clk" id="PeT-qW-bDE">
+                            <connections>
+                                <segue destination="HIy-17-WnX" kind="show" id="Imq-7S-FaR"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="webAddress" destination="mIe-ni-Ec6" id="3TO-Ph-7CB"/>
@@ -380,7 +405,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fuh-WH-aHs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="643.5" y="-522.5"/>
+            <point key="canvasLocation" x="1041.5" y="-523.5"/>
         </scene>
         <!--Clock View Controller-->
         <scene sceneID="8m1-mf-1oo">
@@ -391,11 +416,11 @@
                         <viewControllerLayoutGuide type="bottom" id="RlI-Wq-Nb9"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="icF-Fz-OH7">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="09:45:00 AM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2k8-lD-0sA">
-                                <rect key="frame" x="187" y="273" width="226" height="54"/>
+                                <rect key="frame" x="75" y="307" width="226" height="54"/>
                                 <fontDescription key="fontDescription" name="Avenir-MediumOblique" family="Avenir" pointSize="39"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -407,13 +432,14 @@
                             <constraint firstItem="2k8-lD-0sA" firstAttribute="centerX" secondItem="icF-Fz-OH7" secondAttribute="centerX" id="Xxs-Y0-rSj"/>
                         </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="myTimeLabel" destination="2k8-lD-0sA" id="iC7-C2-fXZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lDK-Sn-wuU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="228" y="180"/>
+            <point key="canvasLocation" x="1467.5" y="-523.5"/>
         </scene>
         <!--Guess What View Controller-->
         <scene sceneID="3D1-2g-M6m">
@@ -500,6 +526,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FVB-5W-Xz9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="860" y="180"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="EbW-dU-rbi">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qO5-Cl-DYB" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6eU-wg-8ox">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="utn-BT-jdp" kind="relationship" relationship="rootViewController" id="b1w-1S-sHQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KJb-wg-86X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="115" y="-523"/>
         </scene>
     </scenes>
     <resources>

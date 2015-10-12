@@ -22,19 +22,21 @@ class WebBrowserViewController: UIViewController, UITextFieldDelegate {
   }
   
   @IBAction func leftPressed(sender: AnyObject) {
-    
+    webView.goBack()
   }
   
   @IBAction func rightPressed(sender: AnyObject) {
-    
+    webView.goForward()
   }
   
   @IBAction func zoomInPressed(sender: AnyObject) {
-    
+    webView.scrollView.zoomScale += 0.1
+
   }
-    
+  
   @IBAction func zoomOutPressed(sender: AnyObject) {
-    
+    webView.scrollView.zoomScale -= 0.1
+
   }
 
     override func viewDidLoad() {
