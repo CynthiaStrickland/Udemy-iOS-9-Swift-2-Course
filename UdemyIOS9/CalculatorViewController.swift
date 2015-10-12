@@ -16,6 +16,28 @@ class CalculatorViewController: UIViewController {
   
   @IBOutlet weak var resultLabel: UILabel!
   
+  func calculateResult(oprtr oprtr: Int) -> Int {
+    var returnValue: Int = Int(resultLabel.text!)!
+    
+    switch(oprtr) {
+    case 1:
+      returnValue = operand * returnValue
+      break
+    case 2:
+      returnValue = operand / returnValue
+      break
+    case 3:
+      returnValue = operand + returnValue
+      break
+    case 4:
+      returnValue = operand - returnValue
+      break
+    default:
+      break
+    }
+    return returnValue
+  }
+  
   @IBAction func buttonOperation(sender: AnyObject) {
     
     if setZero {
@@ -50,7 +72,11 @@ class CalculatorViewController: UIViewController {
 }
   
   @IBAction func equalsButton(sender: AnyObject) {
-    
+    operand = calculateResult(oprtr: op)
+      resultLabel.text = "\(operand)"
+      op = 0
+      setZero = true
+
   }
   
   @IBAction func cancelButton(sender: AnyObject) {
