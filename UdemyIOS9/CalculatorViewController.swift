@@ -10,14 +10,19 @@ import UIKit
 
 class CalculatorViewController: UIViewController {
 
-  @IBOutlet weak var Label: UILabel!
+  @IBOutlet weak var resultLabel: UILabel!
   
   @IBAction func buttonOperation(sender: AnyObject) {
   }
   
   @IBAction func buttonDigitPressed(sender: AnyObject) {
+    
+    if var result : Int = Int(resultLabel.text!) {
+      //logic: 5 in label, press 2 is 52.  5 x 10 + tag(pressed 2)=52.  press 0 = 520.  52 x 10 + tag(pressed 0) = 520
+    result = result * 10 + sender.tag!
+    resultLabel.text = "\(result)"
   }
-  
+}
   @IBAction func cancelButton(sender: AnyObject) {
   }
   
@@ -27,8 +32,12 @@ class CalculatorViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
+      func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return UIStatusBarStyle.LightContent
+      }
+  
+  
+  }
 
 
 
