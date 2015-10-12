@@ -319,6 +319,9 @@
                                         <state key="normal" title="Go">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="goPressed:" destination="gBA-xS-yxG" eventType="touchUpInside" id="qoj-Vs-5N1"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -371,7 +374,6 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="goPressed" destination="R6V-cF-j7W" id="eeB-rf-FqE"/>
                         <outlet property="webAddress" destination="mIe-ni-Ec6" id="3TO-Ph-7CB"/>
                         <outlet property="webView" destination="FuN-ZC-N6K" id="bPQ-37-fN4"/>
                     </connections>
