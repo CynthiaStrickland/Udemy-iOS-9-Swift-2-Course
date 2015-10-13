@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9046" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="aGI-eQ-1E0">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+    </dependencies>
+    <scenes>
+        <!--AlertView-->
+        <scene sceneID="LMV-rg-6rM">
+            <objects>
+                <viewController title="AlertView" id="aGI-eQ-1E0" customClass="AlertViewController" customModule="UdemyIOS9" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ehO-kb-dLf"/>
+                        <viewControllerLayoutGuide type="bottom" id="c2J-Kp-OAm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GHv-Zi-JHf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t6M-hD-Eu4">
+                                <rect key="frame" x="127" y="87" width="121" height="30"/>
+                                <state key="normal" title="Simple Alert View"/>
+                                <connections>
+                                    <action selector="simpleAlert:" destination="aGI-eQ-1E0" eventType="touchUpInside" id="Boi-Ab-TuA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bph-4M-l5b">
+                                <rect key="frame" x="107" y="223" width="161" height="30"/>
+                                <state key="normal" title="Multi-Button Alert View"/>
+                                <connections>
+                                    <action selector="multipleButtonAlert:" destination="aGI-eQ-1E0" eventType="touchUpInside" id="ZHv-Vg-S34"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2QO-wh-ccq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="473.5" y="372.5"/>
+        </scene>
+    </scenes>
+</document>
