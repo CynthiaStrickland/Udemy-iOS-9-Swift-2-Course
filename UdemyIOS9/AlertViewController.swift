@@ -38,13 +38,14 @@ class AlertViewController: UIViewController {
       print("You Pressed CANCEL")
     }))
     
-    self.presentViewController(multipleButtonAlert, animated: true, completion: nil)
+    self.presentViewController(multipleButtonAlert, animated: true) { () -> Void in
+      print("This happens now")
     
+    }
   }
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
-
 
 }
