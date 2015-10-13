@@ -34,6 +34,22 @@
 		3DAEDFD81BCCD44300A427FE /* alertsl29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFD21BCCD44300A427FE /* alertsl29@3x.png */; };
 		3DAEDFD91BCCD44300A427FE /* alertsl40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFD31BCCD44300A427FE /* alertsl40@2x.png */; };
 		3DAEDFDA1BCCD44300A427FE /* alertsl40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFD41BCCD44300A427FE /* alertsl40@3x.png */; };
+		3DAEDFE51BCCE14F00A427FE /* brazil.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFDB1BCCE14F00A427FE /* brazil.png */; };
+		3DAEDFE61BCCE14F00A427FE /* canada.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFDC1BCCE14F00A427FE /* canada.png */; };
+		3DAEDFE71BCCE14F00A427FE /* china.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFDD1BCCE14F00A427FE /* china.png */; };
+		3DAEDFE81BCCE14F00A427FE /* germany.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFDE1BCCE14F00A427FE /* germany.png */; };
+		3DAEDFE91BCCE14F00A427FE /* indonesia.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFDF1BCCE14F00A427FE /* indonesia.png */; };
+		3DAEDFEA1BCCE14F00A427FE /* japan.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFE01BCCE14F00A427FE /* japan.png */; };
+		3DAEDFEB1BCCE14F00A427FE /* southafrica.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFE11BCCE14F00A427FE /* southafrica.png */; };
+		3DAEDFEC1BCCE14F00A427FE /* spain.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFE21BCCE14F00A427FE /* spain.png */; };
+		3DAEDFED1BCCE14F00A427FE /* uk.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFE31BCCE14F00A427FE /* uk.png */; };
+		3DAEDFEE1BCCE14F00A427FE /* usa.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFE41BCCE14F00A427FE /* usa.png */; };
+		3DAEDFF51BCCE19800A427FE /* TVapp60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFEF1BCCE19800A427FE /* TVapp60@2x.png */; };
+		3DAEDFF61BCCE19800A427FE /* TVapp60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFF01BCCE19800A427FE /* TVapp60@3x.png */; };
+		3DAEDFF71BCCE19800A427FE /* TVsl29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFF11BCCE19800A427FE /* TVsl29@2x.png */; };
+		3DAEDFF81BCCE19800A427FE /* TVsl29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFF21BCCE19800A427FE /* TVsl29@3x.png */; };
+		3DAEDFF91BCCE19800A427FE /* TVsl40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFF31BCCE19800A427FE /* TVsl40@2x.png */; };
+		3DAEDFFA1BCCE19800A427FE /* TVsl40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFF41BCCE19800A427FE /* TVsl40@3x.png */; };
 		3DD7E8BF1BC9D3DF00EA01E9 /* GuessWhatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD7E8BE1BC9D3DF00EA01E9 /* GuessWhatViewController.swift */; };
 		3DD7E8C61BC9D4E700EA01E9 /* app60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD7E8C01BC9D4E700EA01E9 /* app60@2x.png */; };
 		3DD7E8C71BC9D4E700EA01E9 /* app60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD7E8C11BC9D4E700EA01E9 /* app60@3x.png */; };
@@ -88,13 +104,29 @@
 		3DAEDFC31BCC99A500A427FE /* Search.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Search.storyboard; path = UdemyIOS9/Search.storyboard; sourceTree = "<group>"; };
 		3DAEDFC51BCCCE4100A427FE /* MikeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MikeViewController.swift; path = ../UdemyIOS9/MikeViewController.swift; sourceTree = "<group>"; };
 		3DAEDFC71BCCD06100A427FE /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabViewController.swift; path = ../UdemyIOS9/TabViewController.swift; sourceTree = "<group>"; };
-		3DAEDFCD1BCCD36D00A427FE /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		3DAEDFCD1BCCD36D00A427FE /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlertViewController.swift; path = ../UdemyIOS9/AlertViewController.swift; sourceTree = "<group>"; };
 		3DAEDFCF1BCCD44300A427FE /* alertapp60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alertapp60@2x.png"; sourceTree = "<group>"; };
 		3DAEDFD01BCCD44300A427FE /* alertapp60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alertapp60@3x.png"; sourceTree = "<group>"; };
 		3DAEDFD11BCCD44300A427FE /* alertsl29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alertsl29@2x.png"; sourceTree = "<group>"; };
 		3DAEDFD21BCCD44300A427FE /* alertsl29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alertsl29@3x.png"; sourceTree = "<group>"; };
 		3DAEDFD31BCCD44300A427FE /* alertsl40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alertsl40@2x.png"; sourceTree = "<group>"; };
 		3DAEDFD41BCCD44300A427FE /* alertsl40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alertsl40@3x.png"; sourceTree = "<group>"; };
+		3DAEDFDB1BCCE14F00A427FE /* brazil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brazil.png; sourceTree = "<group>"; };
+		3DAEDFDC1BCCE14F00A427FE /* canada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = canada.png; sourceTree = "<group>"; };
+		3DAEDFDD1BCCE14F00A427FE /* china.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = china.png; sourceTree = "<group>"; };
+		3DAEDFDE1BCCE14F00A427FE /* germany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = germany.png; sourceTree = "<group>"; };
+		3DAEDFDF1BCCE14F00A427FE /* indonesia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indonesia.png; sourceTree = "<group>"; };
+		3DAEDFE01BCCE14F00A427FE /* japan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = japan.png; sourceTree = "<group>"; };
+		3DAEDFE11BCCE14F00A427FE /* southafrica.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = southafrica.png; sourceTree = "<group>"; };
+		3DAEDFE21BCCE14F00A427FE /* spain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spain.png; sourceTree = "<group>"; };
+		3DAEDFE31BCCE14F00A427FE /* uk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uk.png; sourceTree = "<group>"; };
+		3DAEDFE41BCCE14F00A427FE /* usa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usa.png; sourceTree = "<group>"; };
+		3DAEDFEF1BCCE19800A427FE /* TVapp60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TVapp60@2x.png"; sourceTree = "<group>"; };
+		3DAEDFF01BCCE19800A427FE /* TVapp60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TVapp60@3x.png"; sourceTree = "<group>"; };
+		3DAEDFF11BCCE19800A427FE /* TVsl29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TVsl29@2x.png"; sourceTree = "<group>"; };
+		3DAEDFF21BCCE19800A427FE /* TVsl29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TVsl29@3x.png"; sourceTree = "<group>"; };
+		3DAEDFF31BCCE19800A427FE /* TVsl40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TVsl40@2x.png"; sourceTree = "<group>"; };
+		3DAEDFF41BCCE19800A427FE /* TVsl40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TVsl40@3x.png"; sourceTree = "<group>"; };
 		3DD7E8BE1BC9D3DF00EA01E9 /* GuessWhatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GuessWhatViewController.swift; path = ../UdemyIOS9/GuessWhatViewController.swift; sourceTree = "<group>"; };
 		3DD7E8C01BC9D4E700EA01E9 /* app60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app60@2x.png"; sourceTree = "<group>"; };
 		3DD7E8C11BC9D4E700EA01E9 /* app60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app60@3x.png"; sourceTree = "<group>"; };
@@ -178,6 +210,7 @@
 		3D983B831BC8DFBA003977A0 /* UdemyIOS9UITests */ = {
 			isa = PBXGroup;
 			children = (
+				3DAEDFCD1BCCD36D00A427FE /* AlertViewController.swift */,
 				3DAEDFA71BCA38C800A427FE /* CalculatorViewController.swift */,
 				3DAEDFBA1BCB808500A427FE /* WebBrowserViewController.swift */,
 				3D983B961BC8E99D003977A0 /* ClockViewController.swift */,
@@ -202,7 +235,6 @@
 		3DAEDFAA1BCA390500A427FE /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3DAEDFCD1BCCD36D00A427FE /* AlertViewController.swift */,
 			);
 			name = View;
 			path = UdemyIOS9;
@@ -211,6 +243,22 @@
 		3DAEDFAB1BCA3E1A00A427FE /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3DAEDFEF1BCCE19800A427FE /* TVapp60@2x.png */,
+				3DAEDFF01BCCE19800A427FE /* TVapp60@3x.png */,
+				3DAEDFF11BCCE19800A427FE /* TVsl29@2x.png */,
+				3DAEDFF21BCCE19800A427FE /* TVsl29@3x.png */,
+				3DAEDFF31BCCE19800A427FE /* TVsl40@2x.png */,
+				3DAEDFF41BCCE19800A427FE /* TVsl40@3x.png */,
+				3DAEDFDB1BCCE14F00A427FE /* brazil.png */,
+				3DAEDFDC1BCCE14F00A427FE /* canada.png */,
+				3DAEDFDD1BCCE14F00A427FE /* china.png */,
+				3DAEDFDE1BCCE14F00A427FE /* germany.png */,
+				3DAEDFDF1BCCE14F00A427FE /* indonesia.png */,
+				3DAEDFE01BCCE14F00A427FE /* japan.png */,
+				3DAEDFE11BCCE14F00A427FE /* southafrica.png */,
+				3DAEDFE21BCCE14F00A427FE /* spain.png */,
+				3DAEDFE31BCCE14F00A427FE /* uk.png */,
+				3DAEDFE41BCCE14F00A427FE /* usa.png */,
 				3DAEDFCF1BCCD44300A427FE /* alertapp60@2x.png */,
 				3DAEDFD01BCCD44300A427FE /* alertapp60@3x.png */,
 				3DAEDFD11BCCD44300A427FE /* alertsl29@2x.png */,
@@ -338,6 +386,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DAEDFE71BCCE14F00A427FE /* china.png in Resources */,
+				3DAEDFE81BCCE14F00A427FE /* germany.png in Resources */,
 				3DAEDFD91BCCD44300A427FE /* alertsl40@2x.png in Resources */,
 				3DAEDFB61BCA3EA300A427FE /* calcsl29@3x.png in Resources */,
 				3DAEDFB71BCA3EA300A427FE /* calcsl40@2x.png in Resources */,
@@ -346,19 +396,33 @@
 				3DAEDFB81BCA3EA300A427FE /* calcsl40@3x.png in Resources */,
 				3DAEDFC41BCC99A500A427FE /* Search.storyboard in Resources */,
 				3DAEDFB51BCA3EA300A427FE /* calcsl29@2x.png in Resources */,
+				3DAEDFF51BCCE19800A427FE /* TVapp60@2x.png in Resources */,
+				3DAEDFEB1BCCE14F00A427FE /* southafrica.png in Resources */,
+				3DAEDFED1BCCE14F00A427FE /* uk.png in Resources */,
+				3DAEDFE91BCCE14F00A427FE /* indonesia.png in Resources */,
 				3DAEDFDA1BCCD44300A427FE /* alertsl40@3x.png in Resources */,
+				3DAEDFE61BCCE14F00A427FE /* canada.png in Resources */,
 				3D983B6F1BC8DFB9003977A0 /* LaunchScreen.storyboard in Resources */,
 				3DD7E8CB1BC9D4E700EA01E9 /* sl40@3x.png in Resources */,
+				3DAEDFF71BCCE19800A427FE /* TVsl29@2x.png in Resources */,
 				3D983B6C1BC8DFB9003977A0 /* Assets.xcassets in Resources */,
 				3DAEDFB31BCA3EA300A427FE /* calc60@2x.png in Resources */,
 				3DAEDFB91BCA3EA300A427FE /* calculator.png in Resources */,
+				3DAEDFEA1BCCE14F00A427FE /* japan.png in Resources */,
 				3DD7E8CA1BC9D4E700EA01E9 /* sl40@2x.png in Resources */,
+				3DAEDFFA1BCCE19800A427FE /* TVsl40@3x.png in Resources */,
 				3D983B991BC8EE8F003977A0 /* main.storyboard in Resources */,
+				3DAEDFF81BCCE19800A427FE /* TVsl29@3x.png in Resources */,
 				3DAEDFD51BCCD44300A427FE /* alertapp60@2x.png in Resources */,
+				3DAEDFF61BCCE19800A427FE /* TVapp60@3x.png in Resources */,
+				3DAEDFEC1BCCE14F00A427FE /* spain.png in Resources */,
+				3DAEDFEE1BCCE14F00A427FE /* usa.png in Resources */,
 				3DD7E8C81BC9D4E700EA01E9 /* sl29@2x.png in Resources */,
 				3DAEDFB41BCA3EA300A427FE /* calc60@3x.png in Resources */,
 				3DAEDFD71BCCD44300A427FE /* alertsl29@2x.png in Resources */,
+				3DAEDFF91BCCE19800A427FE /* TVsl40@2x.png in Resources */,
 				3DD7E8C71BC9D4E700EA01E9 /* app60@3x.png in Resources */,
+				3DAEDFE51BCCE14F00A427FE /* brazil.png in Resources */,
 				3DD7E8C91BC9D4E700EA01E9 /* sl29@3x.png in Resources */,
 				3DD7E8CD1BC9D4F600EA01E9 /* whatisinyourmind.png in Resources */,
 				3DAEDFD81BCCD44300A427FE /* alertsl29@3x.png in Resources */,
