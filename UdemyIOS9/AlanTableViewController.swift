@@ -10,6 +10,8 @@ import UIKit
 
 class AlanTableViewController: UIViewController {
 
+  var incomingMessage : String = "No Data Received"
+
   @IBAction func backPressed(sender: AnyObject) {
     
     self.dismissViewControllerAnimated(true, completion: nil)
@@ -17,6 +19,7 @@ class AlanTableViewController: UIViewController {
   }
     override func viewDidLoad() {
         super.viewDidLoad()
+      print(incomingMessage)
 
     }
 
