@@ -16,6 +16,14 @@
                     <view key="view" contentMode="scaleToFill" id="7KN-zm-PNP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4s6-Cb-uKN">
+                                <rect key="frame" x="166" y="122" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Luo-jE-cEZ"/>
@@ -41,14 +49,14 @@
                                 <rect key="frame" x="172" y="115" width="30" height="30"/>
                                 <state key="normal" title="Alan"/>
                                 <connections>
-                                    <segue destination="dZL-TO-Fvq" kind="show" id="E9N-pM-XnK"/>
+                                    <segue destination="5IC-ut-PxF" kind="presentation" identifier="alan" id="k36-JQ-W62"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kl3-yr-BpP">
                                 <rect key="frame" x="171" y="178" width="33" height="30"/>
                                 <state key="normal" title="Mike"/>
                                 <connections>
-                                    <segue destination="5IC-ut-PxF" kind="presentation" id="j9s-bW-RJv"/>
+                                    <segue destination="dZL-TO-Fvq" kind="show" identifier="mike" id="8UD-fO-ukG"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -86,12 +94,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NG3-ei-VyG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2319.5" y="-3093.5"/>
+            <point key="canvasLocation" x="2187.5" y="-2935.5"/>
         </scene>
         <!--Alan-->
         <scene sceneID="hVb-A7-dOD">
             <objects>
-                <viewController title="Alan" id="5IC-ut-PxF" sceneMemberID="viewController">
+                <viewController title="Alan" id="5IC-ut-PxF" customClass="AlanTableViewController" customModule="UdemyIOS9" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Uyk-Qm-OQE"/>
                         <viewControllerLayoutGuide type="bottom" id="yXG-iP-xln"/>
@@ -106,9 +114,12 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vcF-8J-zt9">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ND-UG-Y6h">
                                 <rect key="frame" x="164" y="108" width="46" height="30"/>
-                                <state key="normal" title="BACK"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="backPressed:" destination="5IC-ut-PxF" eventType="touchUpInside" id="ruZ-hd-cD7"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -117,7 +128,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fwG-3y-ZK8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2319.5" y="-3833.5"/>
+            <point key="canvasLocation" x="2187.5" y="-3675.5"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="4CK-pJ-mHR">
