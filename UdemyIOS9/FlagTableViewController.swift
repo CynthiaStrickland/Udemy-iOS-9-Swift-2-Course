@@ -13,10 +13,12 @@ class FlagTableViewController: UITableViewController {
         var countries = ["Brazil", "Canada", "China", "Germany", "Indonesia", "South Africa", "Spain", "United Kingdom", "USA"]
   
         var images = ["brazil", "canada", "china", "germany", "indonesia", "japan", "southafrica", "spain", "uk", "usa"]
+  
+  
     override func viewDidLoad() {
         super.viewDidLoad()
       
-
+      self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
 // MARK: - Table view data source
@@ -34,6 +36,7 @@ class FlagTableViewController: UITableViewController {
       
 //      cell.textLabel?.text = countries[indexPath.row]
 //      cell.detailTextLabel?.text = countries[indexPath.row]
+      
         cell.countryLabel.text = countries[indexPath.row]
         cell.flagImage.image = UIImage(named: images[indexPath.row])
       
@@ -43,7 +46,6 @@ class FlagTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
         return true
     }
-
 
 
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
@@ -70,6 +72,8 @@ class FlagTableViewController: UITableViewController {
       
         images[fromIndexPath.row] = tempImage2
         images[toIndexPath.row] = tempImage1
+      
+      tableView.reloadData()
     }
 
     override func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
@@ -79,8 +83,8 @@ class FlagTableViewController: UITableViewController {
 
     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+      
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
