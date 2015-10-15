@@ -50,6 +50,13 @@
 		3DAEDFF81BCCE19800A427FE /* TVsl29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFF21BCCE19800A427FE /* TVsl29@3x.png */; };
 		3DAEDFF91BCCE19800A427FE /* TVsl40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFF31BCCE19800A427FE /* TVsl40@2x.png */; };
 		3DAEDFFA1BCCE19800A427FE /* TVsl40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEDFF41BCCE19800A427FE /* TVsl40@3x.png */; };
+		3DAEDFFC1BCCE22A00A427FE /* FlagTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEDFFB1BCCE22A00A427FE /* FlagTableViewController.swift */; };
+		3DAEDFFE1BCCE23F00A427FE /* FlagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEDFFD1BCCE23F00A427FE /* FlagViewController.swift */; };
+		3DAEE0001BCF6B4B00A427FE /* FlagTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEDFFF1BCF6B4B00A427FE /* FlagTableViewCell.swift */; };
+		3DAEE0051BCF6D5500A427FE /* lap.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEE0011BCF6D5500A427FE /* lap.png */; };
+		3DAEE0061BCF6D5500A427FE /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEE0021BCF6D5500A427FE /* reset.png */; };
+		3DAEE0071BCF6D5500A427FE /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEE0031BCF6D5500A427FE /* start.png */; };
+		3DAEE0081BCF6D5500A427FE /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEE0041BCF6D5500A427FE /* stop.png */; };
 		3DD7E8BF1BC9D3DF00EA01E9 /* GuessWhatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD7E8BE1BC9D3DF00EA01E9 /* GuessWhatViewController.swift */; };
 		3DD7E8C61BC9D4E700EA01E9 /* app60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD7E8C01BC9D4E700EA01E9 /* app60@2x.png */; };
 		3DD7E8C71BC9D4E700EA01E9 /* app60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD7E8C11BC9D4E700EA01E9 /* app60@3x.png */; };
@@ -127,6 +134,13 @@
 		3DAEDFF21BCCE19800A427FE /* TVsl29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TVsl29@3x.png"; sourceTree = "<group>"; };
 		3DAEDFF31BCCE19800A427FE /* TVsl40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TVsl40@2x.png"; sourceTree = "<group>"; };
 		3DAEDFF41BCCE19800A427FE /* TVsl40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TVsl40@3x.png"; sourceTree = "<group>"; };
+		3DAEDFFB1BCCE22A00A427FE /* FlagTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagTableViewController.swift; sourceTree = "<group>"; };
+		3DAEDFFD1BCCE23F00A427FE /* FlagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagViewController.swift; sourceTree = "<group>"; };
+		3DAEDFFF1BCF6B4B00A427FE /* FlagTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlagTableViewCell.swift; sourceTree = "<group>"; };
+		3DAEE0011BCF6D5500A427FE /* lap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lap.png; sourceTree = "<group>"; };
+		3DAEE0021BCF6D5500A427FE /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset.png; sourceTree = "<group>"; };
+		3DAEE0031BCF6D5500A427FE /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		3DAEE0041BCF6D5500A427FE /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
 		3DD7E8BE1BC9D3DF00EA01E9 /* GuessWhatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GuessWhatViewController.swift; path = ../UdemyIOS9/GuessWhatViewController.swift; sourceTree = "<group>"; };
 		3DD7E8C01BC9D4E700EA01E9 /* app60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app60@2x.png"; sourceTree = "<group>"; };
 		3DD7E8C11BC9D4E700EA01E9 /* app60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app60@3x.png"; sourceTree = "<group>"; };
@@ -165,10 +179,10 @@
 		3D983B581BC8DFB7003977A0 = {
 			isa = PBXGroup;
 			children = (
+				3D983B981BC8EE8F003977A0 /* main.storyboard */,
 				3D983B631BC8DFB9003977A0 /* UdemyIOS9 */,
 				3DAEDFA91BCA38E900A427FE /* Model */,
 				3DAEDFAA1BCA390500A427FE /* View */,
-				3D983B981BC8EE8F003977A0 /* main.storyboard */,
 				3DAEDFC31BCC99A500A427FE /* Search.storyboard */,
 				3D983B781BC8DFB9003977A0 /* UdemyIOS9Tests */,
 				3D983B831BC8DFBA003977A0 /* UdemyIOS9UITests */,
@@ -235,6 +249,9 @@
 		3DAEDFAA1BCA390500A427FE /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3DAEDFFB1BCCE22A00A427FE /* FlagTableViewController.swift */,
+				3DAEDFFF1BCF6B4B00A427FE /* FlagTableViewCell.swift */,
+				3DAEDFFD1BCCE23F00A427FE /* FlagViewController.swift */,
 			);
 			name = View;
 			path = UdemyIOS9;
@@ -243,6 +260,10 @@
 		3DAEDFAB1BCA3E1A00A427FE /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3DAEE0011BCF6D5500A427FE /* lap.png */,
+				3DAEE0021BCF6D5500A427FE /* reset.png */,
+				3DAEE0031BCF6D5500A427FE /* start.png */,
+				3DAEE0041BCF6D5500A427FE /* stop.png */,
 				3DAEDFEF1BCCE19800A427FE /* TVapp60@2x.png */,
 				3DAEDFF01BCCE19800A427FE /* TVapp60@3x.png */,
 				3DAEDFF11BCCE19800A427FE /* TVsl29@2x.png */,
@@ -393,11 +414,13 @@
 				3DAEDFB71BCA3EA300A427FE /* calcsl40@2x.png in Resources */,
 				3DAEDFD61BCCD44300A427FE /* alertapp60@3x.png in Resources */,
 				3DD7E8C61BC9D4E700EA01E9 /* app60@2x.png in Resources */,
+				3DAEE0061BCF6D5500A427FE /* reset.png in Resources */,
 				3DAEDFB81BCA3EA300A427FE /* calcsl40@3x.png in Resources */,
 				3DAEDFC41BCC99A500A427FE /* Search.storyboard in Resources */,
 				3DAEDFB51BCA3EA300A427FE /* calcsl29@2x.png in Resources */,
 				3DAEDFF51BCCE19800A427FE /* TVapp60@2x.png in Resources */,
 				3DAEDFEB1BCCE14F00A427FE /* southafrica.png in Resources */,
+				3DAEE0081BCF6D5500A427FE /* stop.png in Resources */,
 				3DAEDFED1BCCE14F00A427FE /* uk.png in Resources */,
 				3DAEDFE91BCCE14F00A427FE /* indonesia.png in Resources */,
 				3DAEDFDA1BCCD44300A427FE /* alertsl40@3x.png in Resources */,
@@ -414,11 +437,13 @@
 				3D983B991BC8EE8F003977A0 /* main.storyboard in Resources */,
 				3DAEDFF81BCCE19800A427FE /* TVsl29@3x.png in Resources */,
 				3DAEDFD51BCCD44300A427FE /* alertapp60@2x.png in Resources */,
+				3DAEE0051BCF6D5500A427FE /* lap.png in Resources */,
 				3DAEDFF61BCCE19800A427FE /* TVapp60@3x.png in Resources */,
 				3DAEDFEC1BCCE14F00A427FE /* spain.png in Resources */,
 				3DAEDFEE1BCCE14F00A427FE /* usa.png in Resources */,
 				3DD7E8C81BC9D4E700EA01E9 /* sl29@2x.png in Resources */,
 				3DAEDFB41BCA3EA300A427FE /* calc60@3x.png in Resources */,
+				3DAEE0071BCF6D5500A427FE /* start.png in Resources */,
 				3DAEDFD71BCCD44300A427FE /* alertsl29@2x.png in Resources */,
 				3DAEDFF91BCCE19800A427FE /* TVsl40@2x.png in Resources */,
 				3DD7E8C71BC9D4E700EA01E9 /* app60@3x.png in Resources */,
@@ -451,6 +476,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DAEDFC81BCCD06100A427FE /* TabViewController.swift in Sources */,
+				3DAEDFFC1BCCE22A00A427FE /* FlagTableViewController.swift in Sources */,
+				3DAEDFFE1BCCE23F00A427FE /* FlagViewController.swift in Sources */,
 				3DAEDFC61BCCCE4100A427FE /* MikeViewController.swift in Sources */,
 				3DAEDFC21BCC724400A427FE /* AlanTableViewController.swift in Sources */,
 				3D983B651BC8DFB9003977A0 /* AppDelegate.swift in Sources */,
@@ -459,6 +486,7 @@
 				3DAEDFBB1BCB808500A427FE /* WebBrowserViewController.swift in Sources */,
 				3DAEDFA81BCA38C800A427FE /* CalculatorViewController.swift in Sources */,
 				3DD7E8BF1BC9D3DF00EA01E9 /* GuessWhatViewController.swift in Sources */,
+				3DAEE0001BCF6B4B00A427FE /* FlagTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
