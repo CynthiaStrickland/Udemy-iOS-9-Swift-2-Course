@@ -80,6 +80,12 @@ class FlagTableViewController: UITableViewController {
         return true
     }
 
+  override func tableView(tableView: UITableView, accessoryButtonTappedForRowWithIndexPath indexPath: NSIndexPath) {
+    let alert = UIAlertController(title: "This is \(countries[indexPath.row])'s Flag", message: "OK", preferredStyle: .Alert)
+    alert.addAction(UIAlertAction(title: "Ok", style: .Default, handler: nil))
+    
+    self.presentViewController(alert, animated: true, completion: nil)
+  }
 
     // MARK: - Navigation
 

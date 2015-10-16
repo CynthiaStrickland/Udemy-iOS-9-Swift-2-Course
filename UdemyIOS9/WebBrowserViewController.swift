@@ -10,7 +10,7 @@ import UIKit
 
 class WebBrowserViewController: UIViewController, UITextFieldDelegate {
   
-  var address : String = String()
+  var address = String()
   
   @IBOutlet weak var webAddress: UITextField!
   @IBOutlet weak var webView: UIWebView!
