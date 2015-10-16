@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9046" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2dV-ir-H11">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9035"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--NEW CONTACT-->
@@ -15,7 +16,92 @@
                     <view key="view" contentMode="scaleToFill" id="x7S-kY-PX1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ErS-DN-Dxl">
+                                <rect key="frame" x="135" y="111" width="220" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="kAK-Ow-Rbc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="First Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9Z-36-UnV">
+                                <rect key="frame" x="44" y="115" width="83" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJt-nu-ENR">
+                                <rect key="frame" x="86" y="250" width="41" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y2x-O8-fip">
+                                <rect key="frame" x="78" y="205" width="49" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Last Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZZc-c5-gqM">
+                                <rect key="frame" x="45" y="160" width="82" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Q7-FR-6UI">
+                                <rect key="frame" x="135" y="156" width="220" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="elh-6m-kV0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Su-S3-Bj2">
+                                <rect key="frame" x="135" y="201" width="220" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="RZa-HO-Boa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NHK-og-fgn">
+                                <rect key="frame" x="135" y="246" width="220" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="K6p-GE-3Ay"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tod-U6-aOX">
+                                <rect key="frame" x="172" y="291" width="30" height="45"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="ErS-DN-Dxl" secondAttribute="trailing" id="3hi-UE-6Pg"/>
+                            <constraint firstItem="0Q7-FR-6UI" firstAttribute="leading" secondItem="ZZc-c5-gqM" secondAttribute="trailing" constant="8" id="8XZ-ju-lEL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1Su-S3-Bj2" secondAttribute="trailing" id="91y-IT-rU9"/>
+                            <constraint firstItem="y2x-O8-fip" firstAttribute="leading" secondItem="x7S-kY-PX1" secondAttribute="leadingMargin" constant="58" id="DCy-0z-KbJ"/>
+                            <constraint firstItem="U9Z-36-UnV" firstAttribute="top" secondItem="qiB-9T-UW1" secondAttribute="bottom" constant="51" id="ECA-Vt-jnK"/>
+                            <constraint firstItem="ErS-DN-Dxl" firstAttribute="leading" secondItem="U9Z-36-UnV" secondAttribute="trailing" constant="8" id="Ew4-eg-LMT"/>
+                            <constraint firstItem="NHK-og-fgn" firstAttribute="top" secondItem="1Su-S3-Bj2" secondAttribute="bottom" constant="15" id="Pq1-ww-kjU"/>
+                            <constraint firstItem="PJt-nu-ENR" firstAttribute="leading" secondItem="x7S-kY-PX1" secondAttribute="leadingMargin" constant="66" id="RPF-dq-moT"/>
+                            <constraint firstItem="U9Z-36-UnV" firstAttribute="leading" secondItem="x7S-kY-PX1" secondAttribute="leadingMargin" constant="24" id="RxS-cN-gIJ"/>
+                            <constraint firstItem="tod-U6-aOX" firstAttribute="centerX" secondItem="x7S-kY-PX1" secondAttribute="centerX" id="V8t-EZ-I0R"/>
+                            <constraint firstItem="ZZc-c5-gqM" firstAttribute="leading" secondItem="x7S-kY-PX1" secondAttribute="leadingMargin" constant="25" id="VSe-Bn-2co"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="NHK-og-fgn" secondAttribute="trailing" id="Vit-dg-0wz"/>
+                            <constraint firstItem="ErS-DN-Dxl" firstAttribute="top" secondItem="qiB-9T-UW1" secondAttribute="bottom" constant="47" id="Y2L-XC-PIH"/>
+                            <constraint firstItem="0Q7-FR-6UI" firstAttribute="top" secondItem="ErS-DN-Dxl" secondAttribute="bottom" constant="15" id="ezk-gy-JGu"/>
+                            <constraint firstItem="ZZc-c5-gqM" firstAttribute="top" secondItem="U9Z-36-UnV" secondAttribute="bottom" constant="24" id="gQR-Ct-sYe"/>
+                            <constraint firstItem="tod-U6-aOX" firstAttribute="top" secondItem="NHK-og-fgn" secondAttribute="bottom" constant="15" id="hqo-LS-i6s"/>
+                            <constraint firstItem="NHK-og-fgn" firstAttribute="leading" secondItem="PJt-nu-ENR" secondAttribute="trailing" constant="8" id="nsT-Vi-u4G"/>
+                            <constraint firstItem="y2x-O8-fip" firstAttribute="top" secondItem="ZZc-c5-gqM" secondAttribute="bottom" constant="24" id="pNt-Yb-wLV"/>
+                            <constraint firstItem="PJt-nu-ENR" firstAttribute="top" secondItem="y2x-O8-fip" secondAttribute="bottom" constant="24" id="rre-WQ-Su4"/>
+                            <constraint firstItem="1Su-S3-Bj2" firstAttribute="top" secondItem="0Q7-FR-6UI" secondAttribute="bottom" constant="15" id="vMg-VJ-2xE"/>
+                            <constraint firstItem="1Su-S3-Bj2" firstAttribute="leading" secondItem="y2x-O8-fip" secondAttribute="trailing" constant="8" id="xlT-6Z-xl8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0Q7-FR-6UI" secondAttribute="trailing" id="yoC-RB-Nad"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="NEW CONTACT" id="GeS-tT-ZOG"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
@@ -89,10 +175,10 @@
             </objects>
             <point key="canvasLocation" x="1782.5" y="-657.5"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Contact Table View Controller-->
         <scene sceneID="bRP-GZ-a0y">
             <objects>
-                <tableViewController id="6oV-Wx-klT" sceneMemberID="viewController">
+                <tableViewController id="6oV-Wx-klT" customClass="ContactTableViewController" customModule="UdemyIOS9COREDATA" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Hio-8Y-66o">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
