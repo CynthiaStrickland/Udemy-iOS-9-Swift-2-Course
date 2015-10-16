@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 var firstName = String?()
 var lastName = String?()
@@ -15,13 +16,20 @@ var email = String?()
 
 class NewContactViewController: UIViewController, UITextFieldDelegate {
 
-  
-  
+  var appDel : AppDelegate = AppDelegate()
+  var context : NSManagedObjectContext = NSManagedObjectContext(concurrencyType: NSManagedObjectContextConcurrencyType.MainQueueConcurrencyType)
   
   @IBOutlet weak var firstNameTextField: UITextField!
   @IBOutlet weak var emailTextField: UITextField!
   @IBOutlet weak var phoneTextField: UITextField!
   @IBOutlet weak var lastNameTextField: UITextField!
+  
+  @IBAction func saveButton(sender: AnyObject) {
+    
+    
+    
+  }
+  
   
     override func viewDidLoad() {
         super.viewDidLoad()

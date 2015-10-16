@@ -17,6 +17,8 @@
 		3DAEE03A1BD0AD1200A427FE /* UdemyIOS9COREDATAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEE0391BD0AD1200A427FE /* UdemyIOS9COREDATAUITests.swift */; };
 		3DAEE04C1BD0B7C900A427FE /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEE04B1BD0B7C900A427FE /* ContactTableViewController.swift */; };
 		3DAEE04E1BD18B4A00A427FE /* NewContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEE04D1BD18B4A00A427FE /* NewContactViewController.swift */; };
+		3DAEE0501BD1900900A427FE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEE04F1BD1900900A427FE /* SearchViewController.swift */; };
+		3DAEE0521BD1901C00A427FE /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEE0511BD1901C00A427FE /* SearchTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		3DAEE03B1BD0AD1200A427FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DAEE04B1BD0B7C900A427FE /* ContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewController.swift; sourceTree = "<group>"; };
 		3DAEE04D1BD18B4A00A427FE /* NewContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewContactViewController.swift; sourceTree = "<group>"; };
+		3DAEE04F1BD1900900A427FE /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		3DAEE0511BD1901C00A427FE /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +109,10 @@
 			children = (
 				3DAEE01A1BD0AD0F00A427FE /* Main.storyboard */,
 				3DAEE04D1BD18B4A00A427FE /* NewContactViewController.swift */,
-				3DAEE0161BD0AD0F00A427FE /* AppDelegate.swift */,
+				3DAEE04F1BD1900900A427FE /* SearchViewController.swift */,
+				3DAEE0511BD1901C00A427FE /* SearchTableViewCell.swift */,
 				3DAEE04B1BD0B7C900A427FE /* ContactTableViewController.swift */,
+				3DAEE0161BD0AD0F00A427FE /* AppDelegate.swift */,
 				3DAEE0181BD0AD0F00A427FE /* ViewController.swift */,
 				3DAEE0201BD0AD1000A427FE /* Assets.xcassets */,
 				3DAEE0221BD0AD1000A427FE /* LaunchScreen.storyboard */,
@@ -264,11 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DAEE0501BD1900900A427FE /* SearchViewController.swift in Sources */,
 				3DAEE04C1BD0B7C900A427FE /* ContactTableViewController.swift in Sources */,
 				3DAEE04E1BD18B4A00A427FE /* NewContactViewController.swift in Sources */,
 				3DAEE0191BD0AD0F00A427FE /* ViewController.swift in Sources */,
 				3DAEE01F1BD0AD1000A427FE /* UdemyIOS9COREDATA.xcdatamodeld in Sources */,
 				3DAEE0171BD0AD0F00A427FE /* AppDelegate.swift in Sources */,
+				3DAEE0521BD1901C00A427FE /* SearchTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
