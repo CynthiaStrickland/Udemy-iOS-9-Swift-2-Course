@@ -15,6 +15,7 @@
 		3DAEE0241BD0AD1000A427FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEE0221BD0AD1000A427FE /* LaunchScreen.storyboard */; };
 		3DAEE02F1BD0AD1100A427FE /* UdemyIOS9COREDATATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEE02E1BD0AD1100A427FE /* UdemyIOS9COREDATATests.swift */; };
 		3DAEE03A1BD0AD1200A427FE /* UdemyIOS9COREDATAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEE0391BD0AD1200A427FE /* UdemyIOS9COREDATAUITests.swift */; };
+		3DAEE04A1BD0B70700A427FE /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEE0491BD0B70700A427FE /* ContactTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3DAEE0351BD0AD1200A427FE /* UdemyIOS9COREDATAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UdemyIOS9COREDATAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DAEE0391BD0AD1200A427FE /* UdemyIOS9COREDATAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdemyIOS9COREDATAUITests.swift; sourceTree = "<group>"; };
 		3DAEE03B1BD0AD1200A427FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DAEE0491BD0B70700A427FE /* ContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactTableViewController.swift; path = ../ContactTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,10 @@
 		3DAEE0151BD0AD0F00A427FE /* UdemyIOS9COREDATA */ = {
 			isa = PBXGroup;
 			children = (
-				3DAEE0161BD0AD0F00A427FE /* AppDelegate.swift */,
-				3DAEE0181BD0AD0F00A427FE /* ViewController.swift */,
 				3DAEE01A1BD0AD0F00A427FE /* Main.storyboard */,
+				3DAEE0161BD0AD0F00A427FE /* AppDelegate.swift */,
+				3DAEE0491BD0B70700A427FE /* ContactTableViewController.swift */,
+				3DAEE0181BD0AD0F00A427FE /* ViewController.swift */,
 				3DAEE0201BD0AD1000A427FE /* Assets.xcassets */,
 				3DAEE0221BD0AD1000A427FE /* LaunchScreen.storyboard */,
 				3DAEE0251BD0AD1000A427FE /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DAEE04A1BD0B70700A427FE /* ContactTableViewController.swift in Sources */,
 				3DAEE0191BD0AD0F00A427FE /* ViewController.swift in Sources */,
 				3DAEE01F1BD0AD1000A427FE /* UdemyIOS9COREDATA.xcdatamodeld in Sources */,
 				3DAEE0171BD0AD0F00A427FE /* AppDelegate.swift in Sources */,
@@ -485,6 +489,7 @@
 				3DAEE0401BD0AD1200A427FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DAEE0411BD0AD1200A427FE /* Build configuration list for PBXNativeTarget "UdemyIOS9COREDATATests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +498,7 @@
 				3DAEE0431BD0AD1200A427FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DAEE0441BD0AD1200A427FE /* Build configuration list for PBXNativeTarget "UdemyIOS9COREDATAUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +507,7 @@
 				3DAEE0461BD0AD1200A427FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
