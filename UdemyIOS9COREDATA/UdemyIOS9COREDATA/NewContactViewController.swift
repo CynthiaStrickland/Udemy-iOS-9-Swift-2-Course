@@ -14,25 +14,51 @@ class NewContactViewController: UIViewController, UITextFieldDelegate {
   var appDel : AppDelegate = AppDelegate()
   var context : NSManagedObjectContext = NSManagedObjectContext(concurrencyType: NSManagedObjectContextConcurrencyType.MainQueueConcurrencyType)
   
-  @IBOutlet weak var firstNameTextField: UITextField!
-  @IBOutlet weak var emailTextField: UITextField!
-  @IBOutlet weak var phoneTextField: UITextField!
-  @IBOutlet weak var lastNameTextField: UITextField!
+  @IBOutlet weak var firstName: UITextField!
+  @IBOutlet weak var lastName: UITextField!
+  @IBOutlet weak var email: UITextField!
+  @IBOutlet weak var phone: UITextField!
   
   @IBAction func saveButton(sender: AnyObject) {
     
-    if firstNameTextField.text == "" || lastNameTextField.text == "" || emailTextField.text == "" || phoneTextField.text == "" {
+    if firstName.text == "" || lastName.text == "" || email.text == "" || phone.text == "" {
       
       let alertController = UIAlertController(title: "Error", message: "All Fields Must Be Completed", preferredStyle: .Alert)
       alertController.addAction(UIAlertAction(title: "Ok", style: .Default, handler: nil))
       self.presentViewController(alertController, animated: true, completion: nil)
       
+    } else {
+        self.view.endEditing(true)
+        
+        let newContact = NSEntityDescription.insertNewObjectForEntityForName("Contacts", inManagedObjectContext:context) as NSManagedObject
+        
+        newContact.setValue(firstName.text, forKey: "firstName")
+        newContact.setValue(lastName.text, forKey: "lastName")
+        newContact.setValue(email.text, forKey: "email")
+        newContact.setValue(phone.text, forKey: "phone")
     }
-    
-    
-  }
+        
+        do {
+            try context.save()
+            
+        let alertController = UIAlertController(title: "Success", message: "Contact Saved", preferredStyle: .Alert)
+      alertController.addAction(UIAlertAction(title: "Ok", style: .Default, handler: nil))
+      self.presentViewController(alertController, animated: true, completion: nil)
+      
+            firstName.text = ""
+            lastName.text = ""
+            email.text = ""
+            phone.text = ""
+        }
+        
+        catch _ {
+        let alertController = UIAlertController(title: "Error", message: "Contact Not Saved", preferredStyle: .Alert)
+      alertController.addAction(UIAlertAction(title: "Ok", style: .Default, handler: nil))
+      self.presentViewController(alertController, animated: true, completion: nil)
+            }
+    }
   
-        //TAKE CARE OF KEYBOARD
+                    //TAKE CARE OF KEYBOARD
   
   override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
     self.view.endEditing(true)
@@ -41,12 +67,13 @@ class NewContactViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-      appDel = UIApplication.sharedApplication().delegate
-      as! AppDelegate
+                    //Setting the variable created above
+        
+      appDel = UIApplication.sharedApplication().delegate as! AppDelegate
       context = appDel.managedObjectContext
-  
-  
-  }
+    }
+}
+
 
     
 
@@ -60,4 +87,4 @@ class NewContactViewController: UIViewController, UITextFieldDelegate {
     }
     */
 
-}
+
