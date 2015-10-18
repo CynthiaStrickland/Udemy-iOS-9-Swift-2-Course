@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import CoreData
+
 
 class SearchViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate {
   @IBOutlet weak var searchTextField: UITextField!
