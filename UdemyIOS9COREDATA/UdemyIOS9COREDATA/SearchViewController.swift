@@ -74,10 +74,8 @@ class SearchViewController: UIViewController, UITableViewDataSource, UITableView
         }
         
         tableView.reloadData()
-        
-        
+                
         searchLabel.text = (results?.count)! > 1 ? "\((results?.count)!) records found" : "\((results?.count)!) record found"
-        
         
     }
     

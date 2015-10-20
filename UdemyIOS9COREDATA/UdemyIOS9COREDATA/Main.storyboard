@@ -39,7 +39,6 @@
                                 <state key="normal" image="search"/>
                                 <connections>
                                     <action selector="search:" destination="TQ6-AJ-Sv3" eventType="touchUpInside" id="r6J-qP-RmK"/>
-                                    <action selector="searchButton:" destination="TQ6-AJ-Sv3" eventType="touchUpInside" id="Gr9-wf-cIO"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JrD-bS-Oxh">
@@ -55,22 +54,13 @@
                                 <rect key="frame" x="20" y="129" width="280" height="294"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="99" id="Eue-nO-X3P" customClass="SearchTableViewCell" customModule="UdemyIOS9COREDATA" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="99" id="Eue-nO-X3P" customClass="SearchTableViewCell" customModule="UdemyIOS9COREDATA" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="22" width="280" height="99"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Eue-nO-X3P" id="2pZ-ZS-XVK">
                                             <rect key="frame" x="0.0" y="0.0" width="280" height="98"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Miller" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tYJ-30-QGn">
-                                                    <rect key="frame" x="8" y="8" width="264" height="31"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="31" id="I9R-nw-YUh"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="john@msn.com" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DeT-hr-85p">
                                                     <rect key="frame" x="8" y="39" width="264" height="21"/>
                                                     <constraints>
@@ -89,6 +79,15 @@
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Miller" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tYJ-30-QGn">
+                                                    <rect key="frame" x="8" y="8" width="264" height="31"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="31" id="I9R-nw-YUh"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="DeT-hr-85p" firstAttribute="trailing" secondItem="2pZ-ZS-XVK" secondAttribute="trailingMargin" id="0MX-ho-iha"/>
@@ -103,12 +102,9 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="emailCellLabel" destination="DeT-hr-85p" id="diH-OU-iqq"/>
-                                            <outlet property="emailLabel" destination="DeT-hr-85p" id="HiY-qb-UQ8"/>
-                                            <outlet property="nameCellLabel" destination="tYJ-30-QGn" id="wt0-0F-HYP"/>
-                                            <outlet property="nameLabel" destination="tYJ-30-QGn" id="5Kd-dx-M7k"/>
-                                            <outlet property="phoneLabel" destination="rQj-Iz-yWB" id="ZkN-mQ-gYr"/>
-                                            <outlet property="phoneNumberCellLabel" destination="rQj-Iz-yWB" id="lNi-Zv-ovi"/>
+                                            <outlet property="emailLabel" destination="DeT-hr-85p" id="cPh-bq-PwG"/>
+                                            <outlet property="nameLabel" destination="tYJ-30-QGn" id="0Lp-gr-QqU"/>
+                                            <outlet property="phoneLabel" destination="rQj-Iz-yWB" id="QW3-NN-A8c"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -135,7 +131,6 @@
                     <connections>
                         <outlet property="searchLabel" destination="JrD-bS-Oxh" id="Kfc-H4-hJh"/>
                         <outlet property="searchText" destination="uKa-xE-hfF" id="Vdu-ik-k0y"/>
-                        <outlet property="searchTextField" destination="uKa-xE-hfF" id="Gmd-aT-Oh8"/>
                         <outlet property="tableView" destination="mdo-Z6-N3M" id="pDb-Oa-Xh4"/>
                     </connections>
                 </viewController>
