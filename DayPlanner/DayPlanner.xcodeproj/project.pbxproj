@@ -15,6 +15,7 @@
 		3DAEE0AA1BD72EAA00A427FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DAEE0A81BD72EAA00A427FE /* LaunchScreen.storyboard */; };
 		3DAEE0B51BD72EAB00A427FE /* DayPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEE0B41BD72EAB00A427FE /* DayPlannerTests.swift */; };
 		3DAEE0C01BD72EAB00A427FE /* DayPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEE0BF1BD72EAB00A427FE /* DayPlannerUITests.swift */; };
+		3DAEE0D01BD73B2200A427FE /* TasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEE0CF1BD73B2200A427FE /* TasksTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3DAEE0BB1BD72EAB00A427FE /* DayPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DAEE0BF1BD72EAB00A427FE /* DayPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPlannerUITests.swift; sourceTree = "<group>"; };
 		3DAEE0C11BD72EAB00A427FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DAEE0CF1BD73B2200A427FE /* TasksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TasksTableViewController.swift; path = ../TasksTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				3DAEE0A01BD72EAA00A427FE /* Main.storyboard */,
 				3DAEE09C1BD72EAA00A427FE /* AppDelegate.swift */,
+				3DAEE0CF1BD73B2200A427FE /* TasksTableViewController.swift */,
 				3DAEE09E1BD72EAA00A427FE /* ViewController.swift */,
 				3DAEE0A61BD72EAA00A427FE /* Assets.xcassets */,
 				3DAEE0A81BD72EAA00A427FE /* LaunchScreen.storyboard */,
@@ -195,6 +198,7 @@
 				TargetAttributes = {
 					3DAEE0981BD72EAA00A427FE = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = LK662Y5U4K;
 					};
 					3DAEE0AF1BD72EAB00A427FE = {
 						CreatedOnToolsVersion = 7.1;
@@ -260,6 +264,7 @@
 			files = (
 				3DAEE09F1BD72EAA00A427FE /* ViewController.swift in Sources */,
 				3DAEE0A51BD72EAA00A427FE /* DayPlanner.xcdatamodeld in Sources */,
+				3DAEE0D01BD73B2200A427FE /* TasksTableViewController.swift in Sources */,
 				3DAEE09D1BD72EAA00A427FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,10 +405,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DayPlanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cynthia.DayPlanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -411,10 +419,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DayPlanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cynthia.DayPlanner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
