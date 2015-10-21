@@ -99,9 +99,9 @@
 		3DAEE09B1BD72EAA00A427FE /* DayPlanner */ = {
 			isa = PBXGroup;
 			children = (
+				3DAEE0A01BD72EAA00A427FE /* Main.storyboard */,
 				3DAEE09C1BD72EAA00A427FE /* AppDelegate.swift */,
 				3DAEE09E1BD72EAA00A427FE /* ViewController.swift */,
-				3DAEE0A01BD72EAA00A427FE /* Main.storyboard */,
 				3DAEE0A61BD72EAA00A427FE /* Assets.xcassets */,
 				3DAEE0A81BD72EAA00A427FE /* LaunchScreen.storyboard */,
 				3DAEE0AB1BD72EAA00A427FE /* Info.plist */,
